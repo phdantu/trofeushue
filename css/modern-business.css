@@ -30,15 +30,13 @@ body {
 
 .BS-container{
     width: 90%;
-    background: gray;
     margin: 100px auto;
     display: flex;
     justify-content: center;
-
 }
 .BS-box{
-    width: 200px;
-    height: 250px;
+    width: 250px;
+    height: 300px;
     background: orange;
     margin: 0px 1px; 
     transition: 1s;   

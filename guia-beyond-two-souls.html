@@ -52,7 +52,7 @@
                 <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
                 <button class="btn btn-primary my-2 my-sm-0" type="submit">Search</button>
           </form>
-          
+
         </div>
       </div>
     </nav>
@@ -76,93 +76,1311 @@
         <div class="col-md-8">
 
           <!-- Blog Post -->
-          <div data-target="#list-example" data-spy="scroll affix" data-offset="0" class="card mb-4">
-
-            <!-- DIGITE SEU GUIA AQUI -->
-			         <div id="trophy1" class="card-body">
-
-				<div class="row align-items-start"><!-- DIV PARA CADA TROFEU -->
-					<div class="col-md-2"><!-- IMAGEM DESCRIÇÂO E TITULO DO TROFEU -->
-						<image class="img-thumbnail" src="images/platinum.png" height="50px" ></image>
-					</div>
-					<div class="col-md-10">
-						<font color="#6583be"><h5 id="1">A Sinfonia de Troféus do Horror</h5></font>
-						<font size="2"><p>Você obteve todos os troféus Ouro, Prata e Bronze em Until Dawn</p></font>
-					</div>
-				</div>
-				<!-- TEXTO DA DESCRIÇÃO DO TROFEU -->
-				<p class="card-text">Auto-explicativo</p>
-			</div>
-			<!-- TERMINA AQUi -->
-
-      <div id="list-example" class="list-group">
-      <a class="list-group-item list-group-item-action" href="#list-item-1">Item 1</a>
-      <a class="list-group-item list-group-item-action" href="#list-item-2">Item2</a>
-      <a class="list-group-item list-group-item-action" href="#list-item-3">Item 3</a>
-      <a class="list-group-item list-group-item-action" href="#list-item-4">Item 4</a>
-      </div>
-<div data-spy="scroll" data-target="#list-example" data-offset="0" class="scrollspy-example">
-  <h4 id="list-item-1">Item 1</h4>
-  <p><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br></p>
-  <h4 id="list-item-2">Item 2</h4>
-  <p>.<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>..</p>
-  <h4 id="list-item-3">Item 3</h4>
-  <p>.<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>.</p>
-  <h4 id="list-item-4">Item 4</h4>
-  <p>.<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>..</p>
-</div>
-
-
-            <div class="card-footer text-muted">
-              Postado em 30, Agosto de 2017 por
-              <a href="#">PhDantu</a>
+          <!-- div para cada trofeu -->
+          <div class="card">
+            
+                <button class="btn btn-info" type="button" data-toggle="collapse" data-target="#resumo" aria-expanded="false" aria-controls="collapseExample">
+                Resumo
+              </button>   
+            
+              <!-- este ID tem que estar igual ao data target desse trofeu, e assim para cada trofeu -->
+            <div id="resumo" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                <div class="card-body"> <!-- descricao trofeu -->
+              <table class="table table-striped" >
+                <thead>
+                  <tr>
+                    <th scope="col"></th>
+                        <th scope="col"></th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">Troféus offline: </th>
+                    <td>
+                      46 ( 36 <img src="images/bronze.png" height="18px">
+                      - 6 <img src="images/silver.png" height="18px">
+                      - 3 <img src="images/gold.png" height="18px">
+                      - 1 <img src="images/platinum.png" height="18px"> )
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Troféus online: </th>
+                    <td>
+                      0
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Zerar: </th>
+                    <td>
+                      2/3
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Troféus com Glitch: </th>
+                    <td>
+                      Nenhum
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Troféus perdíveis: </th>
+                    <td>
+                      Nenhum
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
             </div>
-      </div>
-
-
-
-            <!-- Pagination -->
-			<ul class="pagination justify-content-center">
-			<li class="page-item">
-				<a class="page-link" href="guias-1.html" aria-label="Previous">
-					<span aria-hidden="true">&laquo;</span>
-					<span class="sr-only">Previous</span>
-				</a>
-			</li>
+            </div>
+          </div>
+          <!-- /div para cada trofeu -->
+                 <!-- div para cada trofeu -->
+                           <div class="card">
+                             <div class="card-header" id="headingOne">
+                               <a data-toggle="collapse" data-target="#trophy1" aria-expanded="true" aria-controls="collapseOne"> <!-- CUIDADO no data-target e ID na div de descricao e mudar pra cada trofeu -->
+                                 <div class="row align-items-start"><!-- DIV PARA CADA TROFEU -->
+                               <div class="col-md-2"><!-- IMAGEM DESCRIÇÂO E TITULO DO TROFEU -->
+                                 <image class="img-thumbnail" src="images/platinum.png" height="30px" ></image>
+                               </div>
+                               <div class="col-md-10">
+                                 <font color="#6583be"><h5>MESTRE DO BEYOND: TWO SOULS™</h5></font>
+                                 <font size="2"><p>Conseguiu todos os troféus!</p></font>
+                               </div>
+                             </div>
+                               </a>
+                             </div>
+                               <!-- ID DITA ANTERIORMENTE -->
+                             <div id="trophy1" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                                 <div class="card-body"> <!-- descricao trofeu -->
+                                       <p>Adquirir todos os troféus do jogo.</p>
+                                 </div>
+                             </div>
+                           </div>
+                           <!-- /div para cada trofeu -->
+                          <!-- div para cada trofeu -->
+                           <div class="card">
+                             <div class="card-header" id="headingOne">
+                               <a data-toggle="collapse" data-target="#trophy2" aria-expanded="true" aria-controls="collapseOne"> <!-- CUIDADO no data-target e ID na div de descricao e mudar pra cada trofeu -->
+                                 <div class="row align-items-start"><!-- DIV PARA CADA TROFEU -->
+                               <div class="col-md-2"><!-- IMAGEM DESCRIÇÂO E TITULO DO TROFEU -->
+                                 <image class="img-thumbnail" src="images/bronze.png" height="30px" ></image>
+                               </div>
+                               <div class="col-md-10">
+                                 <font color="#6583be"><h5>Mais Alguém?</h5></font>
+                                 <font size="2"><p>Jogou como Aiden pela primeira vez.</p></font>
+                               </div>
+                             </div>
+                               </a>
+                             </div>
+                               <!-- ID DITA ANTERIORMENTE -->
+                             <div id="trophy2" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                                 <div class="card-body"> <!-- descricao trofeu -->
+                                       <p>Relacionado a história, não tem como perder.</p>
+                                 </div>
+                             </div>
+                           </div>
+                           <!-- /div para cada trofeu -->
+                           <!-- div para cada trofeu -->
+                           <div class="card">
+                             <div class="card-header" id="headingOne">
+                               <a data-toggle="collapse" data-target="#trophy3" aria-expanded="true" aria-controls="collapseOne"> <!-- CUIDADO no data-target e ID na div de descricao e mudar pra cada trofeu -->
+                                 <div class="row align-items-start"><!-- DIV PARA CADA TROFEU -->
+                               <div class="col-md-2"><!-- IMAGEM DESCRIÇÂO E TITULO DO TROFEU -->
+                                 <image class="img-thumbnail" src="images/bronze.png" height="30px" ></image>
+                               </div>
+                               <div class="col-md-10">
+                                 <font color="#6583be"><h5>Obediência</h5></font>
+                                 <font size="2"><p>Interrompeu o experimento voluntariamente.</p></font>
+                               </div>
+                             </div>
+                               </a>
+                             </div>
+                               <!-- ID DITA ANTERIORMENTE -->
+                             <div id="trophy3" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                                 <div class="card-body"> <!-- descricao trofeu -->
+                                       <p>Capítulo: Experimento.
+Após completar seu primeiro teste, Cole irá pedir para Aiden mover os blocos no cômodo ao lado. Troque para Aiden e mova os blocos, então continue, movendo, atirando e quebrando objetos pelo cômodo até Nathan gritar: “PARE” enquanto tenta derrubar a porta. Pressione <img src="images/botoes/tri.png"> para mudar de voltar para Jodie e rapidamente pressione <img src="images/botoes/x.png"> para parar o experimento voluntariamente. Deve ser feito antes de Cole e Nathan abrirem a porta.</p>
+                                 </div>
+                             </div>
+                           </div>
+                           <!-- /div para cada trofeu -->
+                           <!-- div para cada trofeu -->
+                           <div class="card">
+                             <div class="card-header" id="headingOne">
+                               <a data-toggle="collapse" data-target="#trophy4" aria-expanded="true" aria-controls="collapseOne"> <!-- CUIDADO no data-target e ID na div de descricao e mudar pra cada trofeu -->
+                                 <div class="row align-items-start"><!-- DIV PARA CADA TROFEU -->
+                               <div class="col-md-2"><!-- IMAGEM DESCRIÇÂO E TITULO DO TROFEU -->
+                                 <image class="img-thumbnail" src="images/bronze.png" height="30px" ></image>
+                               </div>
+                               <div class="col-md-10">
+                                 <font color="#6583be"><h5>Companheiros de Equipe</h5></font>
+                                 <font size="2"><p>Fez 3 travessuras com Jodie e Aiden.</p></font>
+                               </div>
+                             </div>
+                               </a>
+                             </div>
+                               <!-- ID DITA ANTERIORMENTE -->
+                             <div id="trophy4" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                                 <div class="card-body"> <!-- descricao trofeu -->
+                                       <p>Capítulo: Meu amigo imaginário.<br>
+Exitem 9 coisas que você pode fazer para contar para o troféu, mas o método mais comum é ir até a cozinha, e incomodar a mãe de Jodie:</p>
+                                        <ul>
+                                          <li>Use Aiden para levitar as cadeiras</li>
+                                          <li>Use Jodie para olhar para o jarro de cookies e pergunte se você pode comer algum. Use Aiden para pegar e você pode tanto largar na mão de Jodie ou no chão</li>
+                                          <li>Use Aiden para ligar o rádio.</li>
+                                        </ul>
+                                        <p>Após completar você pode finalizar o capítulo ou sair para o menu principal do jogo.</p>
+                                 </div>
+                             </div>
+                           </div>
+                           <!-- /div para cada trofeu -->
+                           <!-- div para cada trofeu -->
+                           <div class="card">
+                             <div class="card-header" id="headingOne">
+                               <a data-toggle="collapse" data-target="#trophy5" aria-expanded="true" aria-controls="collapseOne"> <!-- CUIDADO no data-target e ID na div de descricao e mudar pra cada trofeu -->
+                                 <div class="row align-items-start"><!-- DIV PARA CADA TROFEU -->
+                               <div class="col-md-2"><!-- IMAGEM DESCRIÇÂO E TITULO DO TROFEU -->
+                                 <image class="img-thumbnail" src="images/bronze.png" height="30px" ></image>
+                               </div>
+                               <div class="col-md-10">
+                                 <font color="#6583be"><h5>Aprendiz de Entidades</h5></font>
+                                 <font size="2"><p>Derrotou as entidades com Aiden.</p></font>
+                               </div>
+                             </div>
+                               </a>
+                             </div>
+                               <!-- ID DITA ANTERIORMENTE -->
+                             <div id="trophy5" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                                 <div class="card-body"> <!-- descricao trofeu -->
+                                       <p>Capítulo: Primeira Noite<br>
+Existem 2 capítulos onde você pode enfrentar essas entidades com Aiden. Mas você somente ganhará o troféu após completar o capítulo Primeira Noite. Você simplesmente precisa vencer uma batalha contra entidades.</p>
+                                 </div>
+                             </div>
+                           </div>
+                           <!-- /div para cada trofeu -->
+                           <!-- div para cada trofeu -->
+                           <div class="card">
+                             <div class="card-header" id="headingOne">
+                               <a data-toggle="collapse" data-target="#trophy6" aria-expanded="true" aria-controls="collapseOne"> <!-- CUIDADO no data-target e ID na div de descricao e mudar pra cada trofeu -->
+                                 <div class="row align-items-start"><!-- DIV PARA CADA TROFEU -->
+                               <div class="col-md-2"><!-- IMAGEM DESCRIÇÂO E TITULO DO TROFEU -->
+                                 <image class="img-thumbnail" src="images/bronze.png" height="30px" ></image>
+                               </div>
+                               <div class="col-md-10">
+                                 <font color="#6583be"><h5>Perdoado</h5></font>
+                                 <font size="2"><p>Perdoou o pai de Jodie.</p></font>
+                               </div>
+                             </div>
+                               </a>
+                             </div>
+                               <!-- ID DITA ANTERIORMENTE -->
+                             <div id="trophy6" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                                 <div class="card-body"> <!-- descricao trofeu -->
+                                       <p>Capítulo: Sozinho <br>
+Para este troféu você deve apenas assistir os pais de Jodie ir embora, sem interagir. Mesmo quando ele for embora, o pai de Jodie irá produzir um aura vermelha. Não faça nada com o pai de Jodie.</p>
+                                 </div>
+                             </div>
+                           </div>
+                           <!-- /div para cada trofeu -->
+                           <!-- div para cada trofeu -->
+                           <div class="card">
+                             <div class="card-header" id="headingOne">
+                               <a data-toggle="collapse" data-target="#trophy7" aria-expanded="true" aria-controls="collapseOne"> <!-- CUIDADO no data-target e ID na div de descricao e mudar pra cada trofeu -->
+                                 <div class="row align-items-start"><!-- DIV PARA CADA TROFEU -->
+                               <div class="col-md-2"><!-- IMAGEM DESCRIÇÂO E TITULO DO TROFEU -->
+                                 <image class="img-thumbnail" src="images/bronze.png" height="30px" ></image>
+                               </div>
+                               <div class="col-md-10">
+                                 <font color="#6583be"><h5>Não é meu Pai</h5></font>
+                                 <font size="2"><p>Estrangulou Philip com Aiden.</p></font>
+                               </div>
+                             </div>
+                               </a>
+                             </div>
+                               <!-- ID DITA ANTERIORMENTE -->
+                             <div id="trophy7" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                                 <div class="card-body"> <!-- descricao trofeu -->
+                                       <p>Capítulo: Sozinho<br>
+Para este troféu você precisa fazer o contrário do troféu anterior. No momento em que aparecer a aura vermelha no pai de Jodie, estrangule-o até onde possível (ele não pode ser morto).
+</p>
+                                 </div>
+                             </div>
+                           </div>
+                           <!-- /div para cada trofeu -->
+                           <!-- div para cada trofeu -->
+                           <div class="card">
+                             <div class="card-header" id="headingOne">
+                               <a data-toggle="collapse" data-target="#trophy8" aria-expanded="true" aria-controls="collapseOne"> <!-- CUIDADO no data-target e ID na div de descricao e mudar pra cada trofeu -->
+                                 <div class="row align-items-start"><!-- DIV PARA CADA TROFEU -->
+                               <div class="col-md-2"><!-- IMAGEM DESCRIÇÂO E TITULO DO TROFEU -->
+                                 <image class="img-thumbnail" src="images/bronze.png" height="30px" ></image>
+                               </div>
+                               <div class="col-md-10">
+                                 <font color="#6583be"><h5>Vingança</h5></font>
+                                 <font size="2"><p>Deu uma lição em 3 ou mais adolescentes ou colocou fogo na casa com Aiden.</p></font>
+                               </div>
+                             </div>
+                               </a>
+                             </div>
+                               <!-- ID DITA ANTERIORMENTE -->
+                             <div id="trophy8" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                                 <div class="card-body"> <!-- descricao trofeu -->
+                                       <p>Capítulo: A Festa <br>
+Próximo ao final do capítulo você será trancada no armário embaixo da escada (Olá, Harry Potter). Quando Aiden libertar Jodie você poderá escolher entre duas opções:
+<img src="images/botoes/cir.png"/> Ir Embora <br>
+<img src="images/botoes/x.png"/>Vingança <br>
+Você pode se vingar dos adolescentes assustando eles. Recomendo colocar fogo na casa, pois já ganha outro troféu: <b>Incontrolável.</b></p>
+                                 </div>
+                             </div>
+                           </div>
+                           <!-- /div para cada trofeu -->
+                           <!-- div para cada trofeu -->
+                           <div class="card">
+                             <div class="card-header" id="headingOne">
+                               <a data-toggle="collapse" data-target="#trophy9" aria-expanded="true" aria-controls="collapseOne"> <!-- CUIDADO no data-target e ID na div de descricao e mudar pra cada trofeu -->
+                                 <div class="row align-items-start"><!-- DIV PARA CADA TROFEU -->
+                               <div class="col-md-2"><!-- IMAGEM DESCRIÇÂO E TITULO DO TROFEU -->
+                                 <image class="img-thumbnail" src="images/bronze.png" height="30px" ></image>
+                               </div>
+                               <div class="col-md-10">
+                                 <font color="#6583be"><h5>A Sangue frio</h5></font>
+                                 <font size="2"><p>Não impressionou nem assustou os adolescentes com Aiden.</p></font>
+                               </div>
+                             </div>
+                               </a>
+                             </div>
+                               <!-- ID DITA ANTERIORMENTE -->
+                             <div id="trophy9" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                                 <div class="card-body"> <!-- descricao trofeu -->
+                                       <p>Capítulo: A Festa <br>
+Faça o oposto do troféu anterior. Ao final do capítulo, selecione <img src="images/botoes/cir.png"/> Ir Embora.</p>
+                                 </div>
+                             </div>
+                           </div>
+                           <!-- /div para cada trofeu -->
+                           <!-- div para cada trofeu -->
+                           <div class="card">
+                             <div class="card-header" id="headingOne">
+                               <a data-toggle="collapse" data-target="#trophy10" aria-expanded="true" aria-controls="collapseOne"> <!-- CUIDADO no data-target e ID na div de descricao e mudar pra cada trofeu -->
+                                 <div class="row align-items-start"><!-- DIV PARA CADA TROFEU -->
+                               <div class="col-md-2"><!-- IMAGEM DESCRIÇÂO E TITULO DO TROFEU -->
+                                 <image class="img-thumbnail" src="images/bronze.png" height="30px" ></image>
+                               </div>
+                               <div class="col-md-10">
+                                 <font color="#6583be"><h5>Juntos para Sempre</h5></font>
+                                 <font size="2"><p>Protegeu Jodie contra os agressores.</p></font>
+                               </div>
+                             </div>
+                               </a>
+                             </div>
+                               <!-- ID DITA ANTERIORMENTE -->
+                             <div id="trophy10" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                                 <div class="card-body"> <!-- descricao trofeu -->
+                                       <p>Capítulo: Como outras garotas <br>
+Você estará de castigo, e você precisa movimentar objetos o suficiente para que seja possível possuir o Cole. Quando você estiver chegando na saída, o guarda vai perguntar se está tudo bem. Pressione <img src="images/botoes/x.png"> para tentar falar com o Cole possuído, isso irá prevenir o guarda de tocar em Cole, mantendo a possessão. (Ah não ser que esteja fazendo o troféu <b>Apaixonada por Ryan</b>, ai você deixa o guarda o tocar).</p>
+<p>Quando chegar ao bar, vá até o arcade (fliperama) ou a mesa de sinuca, qualquer um funciona. Eventualmente um cara vai tentar estuprar Jodie, automaticamente será mudado para o Aiden. Use Aiden para assustar os caras tentando fugir, um deles irá produzir uma aura vermelha. Estrangule um deles até a morte, possua o segundo, pegue uma escopeta no balcão, mate o terceiro e depois cometa suicídio.
+</p>
+                                 </div>
+                             </div>
+                           </div>
+                           <!-- /div para cada trofeu -->
+                           <!-- div para cada trofeu -->
+                           <div class="card">
+                             <div class="card-header" id="headingOne">
+                               <a data-toggle="collapse" data-target="#trophy11" aria-expanded="true" aria-controls="collapseOne"> <!-- CUIDADO no data-target e ID na div de descricao e mudar pra cada trofeu -->
+                                 <div class="row align-items-start"><!-- DIV PARA CADA TROFEU -->
+                               <div class="col-md-2"><!-- IMAGEM DESCRIÇÂO E TITULO DO TROFEU -->
+                                 <image class="img-thumbnail" src="images/bronze.png" height="30px" ></image>
+                               </div>
+                               <div class="col-md-10">
+                                 <font color="#6583be"><h5>Fechando o Portal</h5></font>
+                                 <font size="2"><p>Fechou o portal do condensador.</p></font>
+                               </div>
+                             </div>
+                               </a>
+                             </div>
+                               <!-- ID DITA ANTERIORMENTE -->
+                             <div id="trophy11" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                                 <div class="card-body"> <!-- descricao trofeu -->
+                                       <p>Capítulo: O Condensador. <br>
+Conforme você vai para a instalação fechar o portal para o Inframundo você precisa completar as QTE - Quick Time Events (Eventos de tempo rápido, em tradução livre) pois se não a Jodie desiste e sai da instalação e força um ataque aéreo militar. Para prevenir isto você precisa: </p>
+                                        <ul>
+                                          <li>Derrotar o cientista possuído.</li>
+                                          <li>Complete os QTE no próximo cômodo sem falhar.</li>
+                                          <li>No corredor congelado procure pelo cartão-chave e defenda-se do cientista morto.</li>
+                                          <li>Como Aiden, proteja Jodie derrotando os cientistas mortos um por um.</li>
+                                          <li>No cômodo final, gire o conector e prepare-se para a batalha final.</li>
+                                        </ul>
+                                        <p>Após isso, atravesse para o outro lado,e entidades malígnas começarão a atacar Jodie. Use Aiden lute e derrote todas as entidades. Sempre faça elas desaparecerem quando possível, pois ja conta para o troféu: <b>Mestre das Entidades.</b></p>
+                                 </div>
+                             </div>
+                           </div>
+                           <!-- /div para cada trofeu -->
+                           <!-- div para cada trofeu -->
+                           <div class="card">
+                             <div class="card-header" id="headingOne">
+                               <a data-toggle="collapse" data-target="#trophy12" aria-expanded="true" aria-controls="collapseOne"> <!-- CUIDADO no data-target e ID na div de descricao e mudar pra cada trofeu -->
+                                 <div class="row align-items-start"><!-- DIV PARA CADA TROFEU -->
+                               <div class="col-md-2"><!-- IMAGEM DESCRIÇÂO E TITULO DO TROFEU -->
+                                 <image class="img-thumbnail" src="images/bronze.png" height="30px" ></image>
+                               </div>
+                               <div class="col-md-10">
+                                 <font color="#6583be"><h5>Mestre de Canalização</h5></font>
+                                 <font size="2"><p>Canalizou todos os cadáveres no complexo do condensador.</p></font>
+                               </div>
+                             </div>
+                               </a>
+                             </div>
+                               <!-- ID DITA ANTERIORMENTE -->
+                             <div id="trophy12" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                                 <div class="card-body"> <!-- descricao trofeu -->
+                                       <p>Chapter: O Condensador. <br>
+No mesmo capítulo, você precisa canalizar todos os 8 cadáveres para ver as memórias dos eventos traumáticos.</p>
+                                      <ul>
+                                        <li>O Primeiro corpo é relacionado a história</li>
+                                        <li>Após sair do elevador, mova o recém morto soldado para fora do caminho. Entre na porta e troque para Aiden para abrir a porta. Entre no cômodo e vá para trás da escrivaninha onde está localizado o interruptor e na mesa do canto está o cadáver.</li>
+                                        <li>No próximo cômodo cheio de servidores, você encontrará o corpo no chão a esquerda de Jodie</li>
+                                        <li>Após baixar a ventilação de ar no escritório em chamas, você encontrará você encontrará o corpo apoiando suas costas numa mesa no chão.</li>
+                                        <li>Após quebrar a janela, você encontrará o corpo próximo a máquina de refrigerante.</li>
+                                        <li>Na mesma área da máquina de refrigerante você encontrará o corpo do bombeiro.</li>
+                                        <li>Após lutar ou fugir do cientista possuído, você encontrará o próximo corpo num grupo de soldados mortos.</li>
+                                        <li>O corpo final é encontrado na sala de controle do condensador após passar pelo corredor congelado.</li>
+                                      </ul>
+                                 </div>
+                             </div>
+                           </div>
+                           <!-- /div para cada trofeu -->
+                           <!-- div para cada trofeu -->
+                           <div class="card">
+                             <div class="card-header" id="headingOne">
+                               <a data-toggle="collapse" data-target="#trophy13" aria-expanded="true" aria-controls="collapseOne"> <!-- CUIDADO no data-target e ID na div de descricao e mudar pra cada trofeu -->
+                                 <div class="row align-items-start"><!-- DIV PARA CADA TROFEU -->
+                               <div class="col-md-2"><!-- IMAGEM DESCRIÇÂO E TITULO DO TROFEU -->
+                                 <image class="img-thumbnail" src="images/bronze.png" height="30px" ></image>
+                               </div>
+                               <div class="col-md-10">
+                                 <font color="#6583be"><h5>Soldado Perfeito</h5></font>
+                                 <font size="2"><p>Concluiu a maior parte do treinamento físico.</p></font>
+                               </div>
+                             </div>
+                               </a>
+                             </div>
+                               <!-- ID DITA ANTERIORMENTE -->
+                             <div id="trophy13" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                                 <div class="card-body"> <!-- descricao trofeu -->
+                                       <p>Capítulo: Bem vindo a CIA.<br>
+Durante o capítulo você precisa realizar todos os desafios. Eles são bem fáceis e você não deve ter muita dificuldade com isso.
+</p>
+                                 </div>
+                             </div>
+                           </div>
+                           <!-- /div para cada trofeu -->
+                           <!-- div para cada trofeu -->
+                           <div class="card">
+                             <div class="card-header" id="headingOne">
+                               <a data-toggle="collapse" data-target="#trophy14" aria-expanded="true" aria-controls="collapseOne"> <!-- CUIDADO no data-target e ID na div de descricao e mudar pra cada trofeu -->
+                                 <div class="row align-items-start"><!-- DIV PARA CADA TROFEU -->
+                               <div class="col-md-2"><!-- IMAGEM DESCRIÇÂO E TITULO DO TROFEU -->
+                                 <image class="img-thumbnail" src="images/bronze.png" height="30px" ></image>
+                               </div>
+                               <div class="col-md-10">
+                                 <font color="#6583be"><h5>Aprendiz de Luta</h5></font>
+                                 <font size="2"><p>Ganhou todas as lutas e levou menos de 5 golpes.</p></font>
+                               </div>
+                             </div>
+                               </a>
+                             </div>
+                               <!-- ID DITA ANTERIORMENTE -->
+                             <div id="trophy14" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                                 <div class="card-body"> <!-- descricao trofeu -->
+                                       <p>Capítulo: Bem vindo a CIA.<br>
+Durante a mesma missão, não se preocupe, as lutas são bem fáceis. Tenha em mente sempre de seguir os movimentos da Jodie com o analógico direito. O tempo irá desacelerar e lhe dará uma boa janela de tempo para agir. Se você estiver tendo dificuldade, vá para o menu principal, e selecione Continuar para tentar de novo. Isso deve reiniciar a luta que você falhou.
+</p>
+                                 </div>
+                             </div>
+                           </div>
+                           <!-- /div para cada trofeu -->
+                           <!-- div para cada trofeu -->
+                           <div class="card">
+                             <div class="card-header" id="headingOne">
+                               <a data-toggle="collapse" data-target="#trophy15" aria-expanded="true" aria-controls="collapseOne"> <!-- CUIDADO no data-target e ID na div de descricao e mudar pra cada trofeu -->
+                                 <div class="row align-items-start"><!-- DIV PARA CADA TROFEU -->
+                               <div class="col-md-2"><!-- IMAGEM DESCRIÇÂO E TITULO DO TROFEU -->
+                                 <image class="img-thumbnail" src="images/bronze.png" height="30px" ></image>
+                               </div>
+                               <div class="col-md-10">
+                                 <font color="#6583be"><h5>Aprendiz de Furtividade</h5></font>
+                                 <font size="2"><p>Concluiu todos os treinamentos de furtividade sem ser visto.</p></font>
+                               </div>
+                             </div>
+                               </a>
+                             </div>
+                               <!-- ID DITA ANTERIORMENTE -->
+                             <div id="trophy15" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                                 <div class="card-body"> <!-- descricao trofeu -->
+                                       <p>Capítulo: Bem vindo a CIA.<br>
+Este é uma parte relativamente fácil. Tenha paciência e analise a situação, você terá o auxílio de Aiden. Derrube todos agentes, um por um. Não esqueça de analisar a situação antes de agir. Então se seu instrutor gritar que você foi visto, rapidamente vá para menu principal, e selecione Continue para tentar de novo.
+</p>
+                                 </div>
+                             </div>
+                           </div>
+                           <!-- /div para cada trofeu -->
+                           <!-- div para cada trofeu -->
+                           <div class="card">
+                             <div class="card-header" id="headingOne">
+                               <a data-toggle="collapse" data-target="#trophy16" aria-expanded="true" aria-controls="collapseOne"> <!-- CUIDADO no data-target e ID na div de descricao e mudar pra cada trofeu -->
+                                 <div class="row align-items-start"><!-- DIV PARA CADA TROFEU -->
+                               <div class="col-md-2"><!-- IMAGEM DESCRIÇÂO E TITULO DO TROFEU -->
+                                 <image class="img-thumbnail" src="images/bronze.png" height="30px" ></image>
+                               </div>
+                               <div class="col-md-10">
+                                 <font color="#6583be"><h5>Serviço Limpo</h5></font>
+                                 <font size="2"><p>Desligou o monitor e concluiu a missão usando somente o Aiden.</p></font>
+                               </div>
+                             </div>
+                               </a>
+                             </div>
+                               <!-- ID DITA ANTERIORMENTE -->
+                             <div id="trophy16" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                                 <div class="card-body"> <!-- descricao trofeu -->
+                                       <p>Capítulo: A Embaixada<br>
+Para este troféu você precisa se esconder num cubículo no banheiro feminino e usar somente Aiden para entrar no cofre escondido do Sheik. Para isso você N O pode fazer o seguinte:</p>
+                                    <ul>
+                                      <li>Matar o guarda ou cara do monitor</li>
+                                      <li>Sem possuir o guarda ou o Sheik</li>
+                                    </ul>
+                                    <p>Enquanto Aiden, voe escada acima, até o segundo andar, vá até o quarto de vigilância. Dentro do quarto tem um guarda, toque no interruptor dos monitores. O guarda irá verificar e arrumar. Distraia o guarda interagindo com o Café ou a TV portátil e de novo interaja com o monitor. Agora vá até o cômodo do Sheik, e siga a missão, apertando o interruptor na gaveta e arrombando o cofre.</p>
+                                 </div>
+                             </div>
+                           </div>
+                           <!-- /div para cada trofeu -->
+                           <!-- div para cada trofeu -->
+                           <div class="card">
+                             <div class="card-header" id="headingOne">
+                               <a data-toggle="collapse" data-target="#trophy17" aria-expanded="true" aria-controls="collapseOne"> <!-- CUIDADO no data-target e ID na div de descricao e mudar pra cada trofeu -->
+                                 <div class="row align-items-start"><!-- DIV PARA CADA TROFEU -->
+                               <div class="col-md-2"><!-- IMAGEM DESCRIÇÂO E TITULO DO TROFEU -->
+                                 <image class="img-thumbnail" src="images/bronze.png" height="30px" ></image>
+                               </div>
+                               <div class="col-md-10">
+                                 <font color="#6583be"><h5>Espiã Possessiva</h5></font>
+                                 <font size="2"><p>Concluiu a missão usando somente o Xeique.</p></font>
+                               </div>
+                             </div>
+                               </a>
+                             </div>
+                               <!-- ID DITA ANTERIORMENTE -->
+                             <div id="trophy17" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                                 <div class="card-body"> <!-- descricao trofeu -->
+                                       <p>Capítulo: A Embaixada<br>
+Assim como no troféu anterior, prossiga o início da missão normalmente, e NÃO faça o seguinte:</p>
+                                    <ul>
+                                      <li>Matar o guarda ou o cara do monitor.</li>
+                                      <li>Sem possuir o guarda.</li>
+                                    </ul>
+                                    <p>Assim que assumir Aiden, você deve possuir o Sheik. Espere ele ir para longe das pessoas. Assim que a aura laranja aparecer, possua o Sheik. Siga os mesmos passos, interruptor atrás da mesa, depois abra o cofre.</p>
+                                 </div>
+                             </div>
+                           </div>
+                           <!-- /div para cada trofeu -->
+                           <!-- div para cada trofeu -->
+                           <div class="card">
+                             <div class="card-header" id="headingOne">
+                               <a data-toggle="collapse" data-target="#trophy18" aria-expanded="true" aria-controls="collapseOne"> <!-- CUIDADO no data-target e ID na div de descricao e mudar pra cada trofeu -->
+                                 <div class="row align-items-start"><!-- DIV PARA CADA TROFEU -->
+                               <div class="col-md-2"><!-- IMAGEM DESCRIÇÂO E TITULO DO TROFEU -->
+                                 <image class="img-thumbnail" src="images/bronze.png" height="30px" ></image>
+                               </div>
+                               <div class="col-md-10">
+                                 <font color="#6583be"><h5>Amante Perfeita</h5></font>
+                                 <font size="2"><p>Preparou uma refeição, limpou o apartamento, tomou banho, colocou o vestido elegante e ligou a música.</p></font>
+                               </div>
+                             </div>
+                               </a>
+                             </div>
+                               <!-- ID DITA ANTERIORMENTE -->
+                             <div id="trophy18" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                                 <div class="card-body"> <!-- descricao trofeu -->
+                                       <p>Capítulo: O Jantar<br>
+Para este troféu você precisa: cozinhar, limpar o apartamento, tomar um banho, vestir um vestido elegante e colocar uma música antes de Ryan chegar.</p>
+                                      <ul>
+                                        <li>Para limpar o apartamento, você precisa livros na prateleira, e roupas na lavanderia.</li>
+                                        <li>Para tomar banho, vá até o banheiro, tome o banho, seque-se e coloque as lingerie.</li>
+                                        <li>Para colocar o vestido elegante, vá até o quarto de Jodie, e olhe no closet, e selecione Elegante.</li>
+                                        <li>Para colocar alguma música, simplesmente ligue o rádio localizado embaixo da prateleira de livros.</li>
+                                        <li>Para cozinhar vá para a cozinha, leia o livro de culinária no balcão. Cozinha tanto o Bife Asiático (Asian bief) ou o Curry de frango (Chicken Curry). Sua escolha não importa contanto que não peça uma pizza. (Ryan gosta mais de Bife Asiático).</li>
+                                      </ul>
+                                 </div>
+                             </div>
+                           </div>
+                           <!-- /div para cada trofeu -->
+                           <!-- div para cada trofeu -->
+                           <div class="card">
+                             <div class="card-header" id="headingOne">
+                               <a data-toggle="collapse" data-target="#trophy19" aria-expanded="true" aria-controls="collapseOne"> <!-- CUIDADO no data-target e ID na div de descricao e mudar pra cada trofeu -->
+                                 <div class="row align-items-start"><!-- DIV PARA CADA TROFEU -->
+                               <div class="col-md-2"><!-- IMAGEM DESCRIÇÂO E TITULO DO TROFEU -->
+                                 <image class="img-thumbnail" src="images/bronze.png" height="30px" ></image>
+                               </div>
+                               <div class="col-md-10">
+                                 <font color="#6583be"><h5>Garota Normal</h5></font>
+                                 <font size="2"><p>Pediu uma pizza, assistiu à televisão e vestiu uma roupa casual.</p></font>
+                               </div>
+                             </div>
+                               </a>
+                             </div>
+                               <!-- ID DITA ANTERIORMENTE -->
+                             <div id="trophy19" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                                 <div class="card-body"> <!-- descricao trofeu -->
+                                       <p>Capítulo: O Jantar <br>
+Faça praticamente o contrário do troféu anterior:</p>
+                                      <ul>
+                                        <li>Vá até o closet de Jodie, e escolha roupas Casuais (Cool) (Não precisa tomar banho se não quiser)</li>
+                                        <li>Para pedir pizza, vá até a cozinha, leia o livro de culinária e selecione Pizza. E vá até o telefone próximo ao sofá.</li>
+                                        <li>Para assistir TV, apenas sente-se no sofá e use o controle remoto. Então desligue pra fazer o que quiser depois. (Não precisa perder tempo, sendo que pode desligar logo em seguida a TV)</li>
+                                      </ul>
+                                 </div>
+                             </div>
+                           </div>
+                           <!-- /div para cada trofeu -->
+                           <!-- div para cada trofeu -->
+                           <div class="card">
+                             <div class="card-header" id="headingOne">
+                               <a data-toggle="collapse" data-target="#trophy20" aria-expanded="true" aria-controls="collapseOne"> <!-- CUIDADO no data-target e ID na div de descricao e mudar pra cada trofeu -->
+                                 <div class="row align-items-start"><!-- DIV PARA CADA TROFEU -->
+                               <div class="col-md-2"><!-- IMAGEM DESCRIÇÂO E TITULO DO TROFEU -->
+                                 <image class="img-thumbnail" src="images/bronze.png" height="30px" ></image>
+                               </div>
+                               <div class="col-md-10">
+                                 <font color="#6583be"><h5>Apaixonada por Ryan</h5></font>
+                                 <font size="2"><p>Dormiu com Ryan.</p></font>
+                               </div>
+                             </div>
+                               </a>
+                             </div>
+                               <!-- ID DITA ANTERIORMENTE -->
+                             <div id="trophy20" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                                 <div class="card-body"> <!-- descricao trofeu -->
+                                       <p>Necessita múltiplos capítulos: Deve ser jogado desde o capítulo <b>Como Outras Garotas</b> até <b>O Jantar</b>. Não pode fazer por seleção direta do capítulo <b>O Jantar</b>. <br>
+Para este capítulo você não pode deixar a Jodie ser abusada sexualmente no bar, no capítulo <b>Como Outras Garotas</b>. Se você não for até o bar já é requisito para o troféu <b>Juntos para Sempre</b>. Porém se você entrar no bar, basta evitar que Jodie seja abusada, perguntando ao barista se ele viu algumas de suas amigas. Ele vai dizer que não e você pode sair do bar.
+Durante o capítulo você deve evitar que a Jodie saia do laboratório. Ao possuir Cole, você simplesmente largue o controle e deixa o jogo prosseguir. Não pressione <img src="image/botoes/x.png"> quando solicitado.</p>
+                                 </div>
+                             </div>
+                           </div>
+                           <!-- /div para cada trofeu -->
+                           <!-- div para cada trofeu -->
+                           <div class="card">
+                             <div class="card-header" id="headingOne">
+                               <a data-toggle="collapse" data-target="#trophy21" aria-expanded="true" aria-controls="collapseOne"> <!-- CUIDADO no data-target e ID na div de descricao e mudar pra cada trofeu -->
+                                 <div class="row align-items-start"><!-- DIV PARA CADA TROFEU -->
+                               <div class="col-md-2"><!-- IMAGEM DESCRIÇÂO E TITULO DO TROFEU -->
+                                 <image class="img-thumbnail" src="images/bronze.png" height="30px" ></image>
+                               </div>
+                               <div class="col-md-10">
+                                 <font color="#6583be"><h5>Mestre em Furtividade</h5></font>
+                                 <font size="2"><p>Chegou até à catedral sem ser vista.</p></font>
+                               </div>
+                             </div>
+                               </a>
+                             </div>
+                               <!-- ID DITA ANTERIORMENTE -->
+                             <div id="trophy21" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                                 <div class="card-body"> <!-- descricao trofeu -->
+                                       <p>Capítulo: A Missão<br>
+Este é similar ao troféu de <b>Bem vindo a CIA</b> só que desta vez você tem mais combates e mais inimigos para combater. Não é difícil, assim como no outro mantenha atenção e haja com cautela. Não esqueça que Aiden pode distrair inimigos, o que facilita para você derrubá-los sem ser visto.</p>
+                                 </div>
+                             </div>
+                           </div>
+                           <!-- /div para cada trofeu -->
+                           <!-- div para cada trofeu -->
+                           <div class="card">
+                             <div class="card-header" id="headingOne">
+                               <a data-toggle="collapse" data-target="#trophy22" aria-expanded="true" aria-controls="collapseOne"> <!-- CUIDADO no data-target e ID na div de descricao e mudar pra cada trofeu -->
+                                 <div class="row align-items-start"><!-- DIV PARA CADA TROFEU -->
+                               <div class="col-md-2"><!-- IMAGEM DESCRIÇÂO E TITULO DO TROFEU -->
+                                 <image class="img-thumbnail" src="images/bronze.png" height="30px" ></image>
+                               </div>
+                               <div class="col-md-10">
+                                 <font color="#6583be"><h5>Pegue-me Se for Capaz</h5></font>
+                                 <font size="2"><p>Fugiu do trem sem ser presa.</p></font>
+                               </div>
+                             </div>
+                               </a>
+                             </div>
+                               <!-- ID DITA ANTERIORMENTE -->
+                             <div id="trophy22" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                                 <div class="card-body"> <!-- descricao trofeu -->
+                                       <p>Capítulo: Caçada <br>
+Durante este capítulo você deve evitar ser pega ou presa pela polícia. É bem simples e pode ser feito de várias maneiras. Você pode esperar eles entrarem no trem, ou acordar a Jodie para avisá-la dos policiais pela janela. Antes de ele terem a chance de ver Jodie você pode sair correndo iniciando a perseguição. Continue correndo e lutando até chegar até o final do vagão. Use o Aiden para quebrar a janela, e suba para o topo do trem. Continue avançando enquanto tenta evitar os policiais que estão subindo. Quando você estiver encurralado por 3 policiais, lute com eles e pule pra fora do trem. Após tocar o chão você pode terminar o capítulo ou ir para o menu principal.
+</p>
+                                 </div>
+                             </div>
+                           </div>
+                           <!-- /div para cada trofeu -->
+                           <!-- div para cada trofeu -->
+                           <div class="card">
+                             <div class="card-header" id="headingOne">
+                               <a data-toggle="collapse" data-target="#trophy23" aria-expanded="true" aria-controls="collapseOne"> <!-- CUIDADO no data-target e ID na div de descricao e mudar pra cada trofeu -->
+                                 <div class="row align-items-start"><!-- DIV PARA CADA TROFEU -->
+                               <div class="col-md-2"><!-- IMAGEM DESCRIÇÂO E TITULO DO TROFEU -->
+                                 <image class="img-thumbnail" src="images/bronze.png" height="30px" ></image>
+                               </div>
+                               <div class="col-md-10">
+                                 <font color="#6583be"><h5>Apocalipse do Aiden</h5></font>
+                                 <font size="2"><p>Destruiu o posto de gasolina, a igreja, a loja de armas e o helicóptero.</p></font>
+                               </div>
+                             </div>
+                               </a>
+                             </div>
+                               <!-- ID DITA ANTERIORMENTE -->
+                             <div id="trophy23" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                                 <div class="card-body"> <!-- descricao trofeu -->
+                                       <p>Capítulo: Caçada
+Ao final do capítulo, Jodie estará fugindo numa moto, após passar a equipe da SWAT bloqueando a ponte, com o escudo do Aiden. Assim que chegar na cidade, Jodie será tirada da motocicleta. Você precisa destruir tais objetos:</p>
+                                      <ul>
+                                        <li>Seção 1: No trem, você pode acordar Jodie, e esperar para os policiais notarem ela ou correr até o final do vagão e perder de propósito.
+                                          <ul>
+                                            <li>Quando ela acordar, mude para Aiden e possua o policial. Agora liberte Jodie das algemas e derrube o policial no outro cômodo. Volte para Jodie, e estoure a janela com Aiden.</li>
+                                          </ul>
+                                        </li>
+                                        <li>Seção 2: Após escapar do trem, levante e continue correndo na floresta até os cachorros atacarem Jodie. Deixe os cachorros vencerem de propósito:
+                                          <ul>
+                                            <li>Use Jodie ou Aiden para estrangular o policial, então use Aiden para abrir a porta. Saia e roube a motocicleta.</li>
+                                          </ul>
+                                        </li>
+                                        <li>Seção 3: Enquanto pilota a motocicleta, um helicóptero irá rapidamente perseguir você até que se depare com a equipe da SWAT bloqueando a ponte. Não proteja Jodie e ela será presa de novo.
+                                          <ul>
+                                            <li>Durante a prisão final, você pode possuir o primeiro guarda e atirar no motorista na cabeça em seguida. Agora escape do veículo.</li>
+                                          </ul>
+                                        </li>
+                                      </ul>
+                                      <p>Realizando todos os passos corretamente, o troféu será seu.</p>
+                                 </div>
+                             </div>
+                           </div>
+                           <!-- /div para cada trofeu -->
+                           <!-- div para cada trofeu -->
+                           <div class="card">
+                             <div class="card-header" id="headingOne">
+                               <a data-toggle="collapse" data-target="#trophy24" aria-expanded="true" aria-controls="collapseOne"> <!-- CUIDADO no data-target e ID na div de descricao e mudar pra cada trofeu -->
+                                 <div class="row align-items-start"><!-- DIV PARA CADA TROFEU -->
+                               <div class="col-md-2"><!-- IMAGEM DESCRIÇÂO E TITULO DO TROFEU -->
+                                 <image class="img-thumbnail" src="images/bronze.png" height="30px" ></image>
+                               </div>
+                               <div class="col-md-10">
+                                 <font color="#6583be"><h5>Dinheiro para Comer</h5></font>
+                                 <font size="2"><p>Ganhou dinheiro suficiente para comer chocolate no jantar.</p></font>
+                               </div>
+                             </div>
+                               </a>
+                             </div>
+                               <!-- ID DITA ANTERIORMENTE -->
+                             <div id="trophy24" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                                 <div class="card-body"> <!-- descricao trofeu -->
+                                       <p>Capítulo: Sem-teto <br>
+Para este troféu você precisa ganhar dinheiro suficiente para comprar chocolate para o jantar. Existem duas maneiras:</p>
+                                        <ul>
+                                          <li>Tocar violão localizado do outro lado da rua.</li>
+                                          <li>Roubar dinheiro do caixa eletrônico utilizando Aiden, e pegando o dinheiro com Jodie</li>
+                                        </ul>
+                                 </div>
+                             </div>
+                           </div>
+                           <!-- /div para cada trofeu -->
+                           <!-- div para cada trofeu -->
+                           <div class="card">
+                             <div class="card-header" id="headingOne">
+                               <a data-toggle="collapse" data-target="#trophy25" aria-expanded="true" aria-controls="collapseOne"> <!-- CUIDADO no data-target e ID na div de descricao e mudar pra cada trofeu -->
+                                 <div class="row align-items-start"><!-- DIV PARA CADA TROFEU -->
+                               <div class="col-md-2"><!-- IMAGEM DESCRIÇÂO E TITULO DO TROFEU -->
+                                 <image class="img-thumbnail" src="images/bronze.png" height="30px" ></image>
+                               </div>
+                               <div class="col-md-10">
+                                 <font color="#6583be"><h5>Ladra Esperta</h5></font>
+                                 <font size="2"><p>Desativou a câmera do supermercado.</p></font>
+                               </div>
+                             </div>
+                               </a>
+                             </div>
+                               <!-- ID DITA ANTERIORMENTE -->
+                             <div id="trophy25" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                                 <div class="card-body"> <!-- descricao trofeu -->
+                                       <p>Capítulo: Sem-teto <br>
+Quando você for procurar suprimentos para o bebê, você irá invadir a loja de supermercado. Para o troféu tudo que você tem que fazer é desativar todas as câmeras, e você faz isso, destruindo-as. Quando entrar no mercado como Aiden, olhe para cima, e destrua imediatamente para ganhar o troféu. 
+OBS: quando você mudar de volta para Jodie e abrir as portas, Jodie vai perguntar se é seguro entrar ou esperar, o que é uma ótima indicação que você não desativou todas câmeras. (dica de GAZDAN, do playstationtrophies.com)
+</p>
+                                 </div>
+                             </div>
+                           </div>
+                           <!-- /div para cada trofeu -->
+                           <!-- div para cada trofeu -->
+                           <div class="card">
+                             <div class="card-header" id="headingOne">
+                               <a data-toggle="collapse" data-target="#trophy26" aria-expanded="true" aria-controls="collapseOne"> <!-- CUIDADO no data-target e ID na div de descricao e mudar pra cada trofeu -->
+                                 <div class="row align-items-start"><!-- DIV PARA CADA TROFEU -->
+                               <div class="col-md-2"><!-- IMAGEM DESCRIÇÂO E TITULO DO TROFEU -->
+                                 <image class="img-thumbnail" src="images/bronze.png" height="30px" ></image>
+                               </div>
+                               <div class="col-md-10">
+                                 <font color="#6583be"><h5>Milagres</h5></font>
+                                 <font size="2"><p>Realizou todo o ritual, até a conclusão.</p></font>
+                               </div>
+                             </div>
+                               </a>
+                             </div>
+                               <!-- ID DITA ANTERIORMENTE -->
+                             <div id="trophy26" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                                 <div class="card-body"> <!-- descricao trofeu -->
+                                       <p>Capítulo: Navajo <br>
+Próximo ao fim do capítulo, você precisa apenas desenhar o símbolo correto no chão, que é o do <img src="image/botoes/x.png"> . Após isto use o Aiden para levantar o quinta talismã. Quando o portal abrir, acerte a entidade três vezes.</p>
+                                 </div>
+                             </div>
+                           </div>
+                           <!-- /div para cada trofeu -->
+                           <!-- div para cada trofeu -->
+                           <div class="card">
+                             <div class="card-header" id="headingOne">
+                               <a data-toggle="collapse" data-target="#trophy27" aria-expanded="true" aria-controls="collapseOne"> <!-- CUIDADO no data-target e ID na div de descricao e mudar pra cada trofeu -->
+                                 <div class="row align-items-start"><!-- DIV PARA CADA TROFEU -->
+                               <div class="col-md-2"><!-- IMAGEM DESCRIÇÂO E TITULO DO TROFEU -->
+                                 <image class="img-thumbnail" src="images/bronze.png" height="30px" ></image>
+                               </div>
+                               <div class="col-md-10">
+                                 <font color="#6583be"><h5>Não é só Areia</h5></font>
+                                 <font size="2"><p>Fugiu da tempestade de areia e foi atingida menos de 3 vezes.</p></font>
+                               </div>
+                             </div>
+                               </a>
+                             </div>
+                               <!-- ID DITA ANTERIORMENTE -->
+                             <div id="trophy27" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                                 <div class="card-body"> <!-- descricao trofeu -->
+                                       <p>Capítulo: Navajo<br>
+                                        Você precisa evitar ser acertado durante a tempestade. Caso seja, vá para o Menu Principal e selecione Continuar para tentar de novo:
+                                        Quando Jodie começa a correr:</p>
+                                        <ul>
+                                          <li>Cima</li>
+                                          <li>Baixo</li>
+                                          <li>Cima</li>
+                                          <li>Direita</li>
+                                        </ul>
+                                        <p>Quando Jodie entra na cabana:</p>
+                                        <ul>
+                                          <li>Direita</li>
+                                          <li>Baixo</li>
+                                          <li>Baixo</li>
+                                          <li>Cima</li>
+                                        </ul>
+                                        <p>Quando Jodie sai da cabana:</p>
+                                        <ul>
+                                          <li>Sacudir o controle</li>
+                                          <li>Direita</li>
+                                          <li>Direita</li>
+                                          <li>Baixo</li>
+                                          <li>Esquerda</li>
+                                          <li>Use Aiden para proteger Jodie</li>
+                                        </ul>
+                                 </div>
+                             </div>
+                           </div>
+                           <!-- /div para cada trofeu -->
+                           <!-- div para cada trofeu -->
+                           <div class="card">
+                             <div class="card-header" id="headingOne">
+                               <a data-toggle="collapse" data-target="#trophy28" aria-expanded="true" aria-controls="collapseOne"> <!-- CUIDADO no data-target e ID na div de descricao e mudar pra cada trofeu -->
+                                 <div class="row align-items-start"><!-- DIV PARA CADA TROFEU -->
+                               <div class="col-md-2"><!-- IMAGEM DESCRIÇÂO E TITULO DO TROFEU -->
+                                 <image class="img-thumbnail" src="images/bronze.png" height="30px" ></image>
+                               </div>
+                               <div class="col-md-10">
+                                 <font color="#6583be"><h5>Olho por Olho</h5></font>
+                                 <font size="2"><p>Não falou durante o interrogatório.</p></font>
+                               </div>
+                             </div>
+                               </a>
+                             </div>
+                               <!-- ID DITA ANTERIORMENTE -->
+                             <div id="trophy28" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                                 <div class="card-body"> <!-- descricao trofeu -->
+                                       <p>Capítulo: Esconderijo do Dragão <br>
+Para este troféu durante o interrogatório você NÃO deve apertar <img src="image/botoes/x.png"> . Simplesmente assista Ryan ser torturado.</p>
+                                 </div>
+                             </div>
+                           </div>
+                           <!-- /div para cada trofeu -->
+                           <!-- div para cada trofeu -->
+                           <div class="card">
+                             <div class="card-header" id="headingOne">
+                               <a data-toggle="collapse" data-target="#trophy29" aria-expanded="true" aria-controls="collapseOne"> <!-- CUIDADO no data-target e ID na div de descricao e mudar pra cada trofeu -->
+                                 <div class="row align-items-start"><!-- DIV PARA CADA TROFEU -->
+                               <div class="col-md-2"><!-- IMAGEM DESCRIÇÂO E TITULO DO TROFEU -->
+                                 <image class="img-thumbnail" src="images/bronze.png" height="30px" ></image>
+                               </div>
+                               <div class="col-md-10">
+                                 <font color="#6583be"><h5>Agente 894732</h5></font>
+                                 <font size="2"><p>Disse toda a verdade durante o interrogatório.</p></font>
+                               </div>
+                             </div>
+                               </a>
+                             </div>
+                               <!-- ID DITA ANTERIORMENTE -->
+                             <div id="trophy29" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                                 <div class="card-body"> <!-- descricao trofeu -->
+                                       <p>Capítulo: Esconderijo do Dragão <br>
+Você deve fazer justamente o contrário do troféu anterior, quando aparecer a opção de falar. Pressione <img src="image/botoes/x.png"> para falar.</p>
+                                 </div>
+                             </div>
+                           </div>
+                           <!-- /div para cada trofeu -->
+                           <!-- div para cada trofeu -->
+                           <div class="card">
+                             <div class="card-header" id="headingOne">
+                               <a data-toggle="collapse" data-target="#trophy30" aria-expanded="true" aria-controls="collapseOne"> <!-- CUIDADO no data-target e ID na div de descricao e mudar pra cada trofeu -->
+                                 <div class="row align-items-start"><!-- DIV PARA CADA TROFEU -->
+                               <div class="col-md-2"><!-- IMAGEM DESCRIÇÂO E TITULO DO TROFEU -->
+                                 <image class="img-thumbnail" src="images/bronze.png" height="30px" ></image>
+                               </div>
+                               <div class="col-md-10">
+                                 <font color="#6583be"><h5>Quase Fácil Demais</h5></font>
+                                 <font size="2"><p>Foi até o escudo de contenção com General.</p></font>
+                               </div>
+                             </div>
+                               </a>
+                             </div>
+                               <!-- ID DITA ANTERIORMENTE -->
+                             <div id="trophy30" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                                 <div class="card-body"> <!-- descricao trofeu -->
+                                       <p>Capítulo: Esconderijo do Dragão <br>
+Assim que Jodie e Ryan saírem do submarino, mude para Aiden e possua o General. Agora os soldados do general não irão perceber os infiltrados americanos. Enquanto possui o General, vá até o escudo de contenção e Aiden será expulso de dentro do general por culpa do escudo de contenção. Após você pode finalizar o capítulo ou sair para o menu principal.</p>
+                                 </div>
+                             </div>
+                           </div>
+                           <!-- /div para cada trofeu -->
+                           <!-- div para cada trofeu -->
+                           <div class="card">
+                             <div class="card-header" id="headingOne">
+                               <a data-toggle="collapse" data-target="#trophy31" aria-expanded="true" aria-controls="collapseOne"> <!-- CUIDADO no data-target e ID na div de descricao e mudar pra cada trofeu -->
+                                 <div class="row align-items-start"><!-- DIV PARA CADA TROFEU -->
+                               <div class="col-md-2"><!-- IMAGEM DESCRIÇÂO E TITULO DO TROFEU -->
+                                 <image class="img-thumbnail" src="images/bronze.png" height="30px" ></image>
+                               </div>
+                               <div class="col-md-10">
+                                 <font color="#6583be"><h5>Escolher a Vida após a Morte</h5></font>
+                                 <font size="2"><p>Entrou no Inframundo.</p></font>
+                               </div>
+                             </div>
+                               </a>
+                             </div>
+                               <!-- ID DITA ANTERIORMENTE -->
+                             <div id="trophy31" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                                 <div class="card-body"> <!-- descricao trofeu -->
+                                       <p>Capítulo: Sol Negro <br>
+Para este capítulo você precisa desativar o Sol Negro durante o capítulo final do jogo. Após isso você deve escolher Além,não Vida, para entrar no inframundo.
+</p>
+                                 </div>
+                             </div>
+                           </div>
+                           <!-- /div para cada trofeu -->
+                           <!-- div para cada trofeu -->
+                           <div class="card">
+                             <div class="card-header" id="headingOne">
+                               <a data-toggle="collapse" data-target="#trophy32" aria-expanded="true" aria-controls="collapseOne"> <!-- CUIDADO no data-target e ID na div de descricao e mudar pra cada trofeu -->
+                                 <div class="row align-items-start"><!-- DIV PARA CADA TROFEU -->
+                               <div class="col-md-2"><!-- IMAGEM DESCRIÇÂO E TITULO DO TROFEU -->
+                                 <image class="img-thumbnail" src="images/bronze.png" height="30px" ></image>
+                               </div>
+                               <div class="col-md-10">
+                                 <font color="#6583be"><h5>Escolher a Vida</h5></font>
+                                 <font size="2"><p>Ficou na realidade.</p></font>
+                               </div>
+                             </div>
+                               </a>
+                             </div>
+                               <!-- ID DITA ANTERIORMENTE -->
+                             <div id="trophy32" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                                 <div class="card-body"> <!-- descricao trofeu -->
+                                       <p>Capítulo: Sol Negro <br>
+Para este capítulo você precisa desativar o Sol Negro durante o capítulo final do jogo. Após isso você deve escolher Vida,não Além, para ficar na realidade.
+</p>
+                                 </div>
+                             </div>
+                           </div>
+                           <!-- /div para cada trofeu -->
+                           <!-- div para cada trofeu -->
+                           <div class="card">
+                             <div class="card-header" id="headingOne">
+                               <a data-toggle="collapse" data-target="#trophy33" aria-expanded="true" aria-controls="collapseOne"> <!-- CUIDADO no data-target e ID na div de descricao e mudar pra cada trofeu -->
+                                 <div class="row align-items-start"><!-- DIV PARA CADA TROFEU -->
+                               <div class="col-md-2"><!-- IMAGEM DESCRIÇÂO E TITULO DO TROFEU -->
+                                 <image class="img-thumbnail" src="images/bronze.png" height="30px" ></image>
+                               </div>
+                               <div class="col-md-10">
+                                 <font color="#6583be"><h5>Convencer Dawkins</h5></font>
+                                 <font size="2"><p>Ajudou Dawkins a ver a verdade.</p></font>
+                               </div>
+                             </div>
+                               </a>
+                             </div>
+                               <!-- ID DITA ANTERIORMENTE -->
+                             <div id="trophy33" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                                 <div class="card-body"> <!-- descricao trofeu -->
+                                       <p>Capítulo: Sol Negro <br>
+Durante o capítulo você irá encontrar o Nathan Dawkins procurando por sua mulher e filha. Durante o encontro você deve selecionar duas vezes a opção: Razão. Isso irá fazer ele ver a razão e ver tudo que fez de errado nos últimos 15 anos. Finalize o capítulo.</p>
+                                 </div>
+                             </div>
+                           </div>
+                           <!-- /div para cada trofeu -->
+                           <!-- div para cada trofeu -->
+                           <div class="card">
+                             <div class="card-header" id="headingOne">
+                               <a data-toggle="collapse" data-target="#trophy34" aria-expanded="true" aria-controls="collapseOne"> <!-- CUIDADO no data-target e ID na div de descricao e mudar pra cada trofeu -->
+                                 <div class="row align-items-start"><!-- DIV PARA CADA TROFEU -->
+                               <div class="col-md-2"><!-- IMAGEM DESCRIÇÂO E TITULO DO TROFEU -->
+                                 <image class="img-thumbnail" src="images/bronze.png" height="30px" ></image>
+                               </div>
+                               <div class="col-md-10">
+                                 <font color="#6583be"><h5>Sol Negro Desativado</h5></font>
+                                 <font size="2"><p>Desativou o Sol Negro.</p></font>
+                               </div>
+                             </div>
+                               </a>
+                             </div>
+                               <!-- ID DITA ANTERIORMENTE -->
+                             <div id="trophy34" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                                 <div class="card-body"> <!-- descricao trofeu -->
+                                       <p>Capítulo: Sol Negro <br>
+Você obtém este troféu por completar o capítulo final do jogo. Se Jodie falhar durante a missão e for morta pelas entidades irá acontecer um dos finais do jogo: Inframundo Vence.</p>
+                                 </div>
+                             </div>
+                           </div>
+                           <!-- /div para cada trofeu -->
+                           <!-- div para cada trofeu -->
+                           <div class="card">
+                             <div class="card-header" id="headingOne">
+                               <a data-toggle="collapse" data-target="#trophy35" aria-expanded="true" aria-controls="collapseOne"> <!-- CUIDADO no data-target e ID na div de descricao e mudar pra cada trofeu -->
+                                 <div class="row align-items-start"><!-- DIV PARA CADA TROFEU -->
+                               <div class="col-md-2"><!-- IMAGEM DESCRIÇÂO E TITULO DO TROFEU -->
+                                 <image class="img-thumbnail" src="images/silver.png" height="30px" ></image>
+                               </div>
+                               <div class="col-md-10">
+                                 <font color="#6583be"><h5>Fim</h5></font>
+                                 <font size="2"><p>Uma realidade possível foi descoberta...</p></font>
+                               </div>
+                             </div>
+                               </a>
+                             </div>
+                               <!-- ID DITA ANTERIORMENTE -->
+                             <div id="trophy35" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                                 <div class="card-body"> <!-- descricao trofeu -->
+                                       <p>Este troféu irá desbloquear quando você finalizar o jogo uma vez.</p>
+                                 </div>
+                             </div>
+                           </div>
+                           <!-- /div para cada trofeu -->
+                           <!-- div para cada trofeu -->
+                           <div class="card">
+                             <div class="card-header" id="headingOne">
+                               <a data-toggle="collapse" data-target="#trophy36" aria-expanded="true" aria-controls="collapseOne"> <!-- CUIDADO no data-target e ID na div de descricao e mudar pra cada trofeu -->
+                                 <div class="row align-items-start"><!-- DIV PARA CADA TROFEU -->
+                               <div class="col-md-2"><!-- IMAGEM DESCRIÇÂO E TITULO DO TROFEU -->
+                                 <image class="img-thumbnail" src="images/silver.png" height="30px" ></image>
+                               </div>
+                               <div class="col-md-10">
+                                 <font color="#6583be"><h5>Incontrolável</h5></font>
+                                 <font size="2"><p>Aproveitou todas as oportunidades de ser má com Aiden.</p></font>
+                               </div>
+                             </div>
+                               </a>
+                             </div>
+                               <!-- ID DITA ANTERIORMENTE -->
+                             <div id="trophy36" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                                 <div class="card-body"> <!-- descricao trofeu -->
+                                       <p><b>Deve ser jogado desde o Capítulo Experimento até o Capítulo O Jantar. </b>
+                                        Você deve cometer 6 específicas ações ruins com Aiden:</p>
+                                        <ul>
+                                          <li>
+                                            <ul>Capítulo: O Experimento
+                                              <li>Estrangule Kathleen durante o experimento destruindo o máximo de objetos que puder.</li>
+                                            </ul>
+                                          </li>
+                                          <li>
+                                            <ul>Capítulo: A Embaixada
+                                              <li>Possua o guarda no segundo andar e faça ele cometer suicídio.</li>
+                                            </ul>
+                                          </li>
+                                          <li>
+                                            <ul>Capítulo: A Festa
+                                              <li>Selecione Vingança para assustar os adolescentes e colocar fogo na casa, usando as velas nas cortinas, ou usando o fogão.</li>
+                                            </ul>
+                                          </li>
+                                          <li>
+                                            <ul>Capítulo: Meu Amigo Imaginário
+                                              <li>Enquanto brinca com as crianças, estrangule o garoto que ataca Jodie</li>
+                                            </ul>
+                                          </li>
+                                          <li>
+                                            <ul>Capítulo: Sozinha
+                                              <li>Estrangule Philip, pai da Jodie, quando ele deixa o quarto.</li>
+                                            </ul>
+                                          </li>
+                                          <li>
+                                            <ul>Capítulo: O Jantar
+                                              <li>Arruine o encontro da Jodie com o Ryan ao ponto de ele sair do apartamento de Jodie</li>
+                                            </ul>
+                                          </li>
+                                        </ul>
+                                        <p>O resto que fizer durante esses capítulos não importa para este troféu.</p>
+                                 </div>
+                             </div>
+                           </div>
+                           <!-- /div para cada trofeu -->
+                           <!-- div para cada trofeu -->
+                           <div class="card">
+                             <div class="card-header" id="headingOne">
+                               <a data-toggle="collapse" data-target="#trophy37" aria-expanded="true" aria-controls="collapseOne"> <!-- CUIDADO no data-target e ID na div de descricao e mudar pra cada trofeu -->
+                                 <div class="row align-items-start"><!-- DIV PARA CADA TROFEU -->
+                               <div class="col-md-2"><!-- IMAGEM DESCRIÇÂO E TITULO DO TROFEU -->
+                                 <image class="img-thumbnail" src="images/silver.png" height="30px" ></image>
+                               </div>
+                               <div class="col-md-10">
+                                 <font color="#6583be"><h5>Nunca Sozinha</h5></font>
+                                 <font size="2"><p>Começou pelo menos um romance.</p></font>
+                               </div>
+                             </div>
+                               </a>
+                             </div>
+                               <!-- ID DITA ANTERIORMENTE -->
+                             <div id="trophy37" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                                 <div class="card-body"> <!-- descricao trofeu -->
+                                       <p>Para este troféu você precisa beijar um homem. Só existem duas oportunidades no jogo para isto: Jay e Ryan. Jay é o mais cedo de fazer isso contanto que você realize o ritual corretamente, então beije-o ao final do capítulo. Se falhar no ritual não terá a opção beijá-lo. Próxima opção é no capítulo A Missão onde Jodie pode beijar Ryan antes de sair em sua missão perigosa.</p>
+                                 </div>
+                             </div>
+                           </div>
+                           <!-- /div para cada trofeu -->
+                           <!-- div para cada trofeu -->
+                           <div class="card">
+                             <div class="card-header" id="headingOne">
+                               <a data-toggle="collapse" data-target="#trophy38" aria-expanded="true" aria-controls="collapseOne"> <!-- CUIDADO no data-target e ID na div de descricao e mudar pra cada trofeu -->
+                                 <div class="row align-items-start"><!-- DIV PARA CADA TROFEU -->
+                               <div class="col-md-2"><!-- IMAGEM DESCRIÇÂO E TITULO DO TROFEU -->
+                                 <image class="img-thumbnail" src="images/silver.png" height="30px" ></image>
+                               </div>
+                               <div class="col-md-10">
+                                 <font color="#6583be"><h5>Mestre das Entidades</h5></font>
+                                 <font size="2"><p>Saiu vitoriosa em todas as batalhas contra as entidades do mal.</p></font>
+                               </div>
+                             </div>
+                               </a>
+                             </div>
+                               <!-- ID DITA ANTERIORMENTE -->
+                             <div id="trophy38" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                                 <div class="card-body"> <!-- descricao trofeu -->
+                                       <p><b>Deve jogar desde o capítulo O Condensador até o capítulo Primeira Noite.</b> <br>
+Derrote todas as entidades possíveis no decorrer desses capítulos. Em outras palavras, no capítulo <b>O Condensador</b> você deve fechar o portal enquanto protege Jodie.</p>
+                                 </div>
+                             </div>
+                           </div>
+                           <!-- /div para cada trofeu -->
+                           <!-- div para cada trofeu -->
+                           <div class="card">
+                             <div class="card-header" id="headingOne">
+                               <a data-toggle="collapse" data-target="#trophy39" aria-expanded="true" aria-controls="collapseOne"> <!-- CUIDADO no data-target e ID na div de descricao e mudar pra cada trofeu -->
+                                 <div class="row align-items-start"><!-- DIV PARA CADA TROFEU -->
+                               <div class="col-md-2"><!-- IMAGEM DESCRIÇÂO E TITULO DO TROFEU -->
+                                 <image class="img-thumbnail" src="images/silver.png" height="30px" ></image>
+                               </div>
+                               <div class="col-md-10">
+                                 <font color="#6583be"><h5>Um Mundo Melhor</h5></font>
+                                 <font size="2"><p>Deixou todos os personagens possíveis morrerem e decidiu ir com eles para o Inframundo.</p></font>
+                               </div>
+                             </div>
+                               </a>
+                             </div>
+                               <!-- ID DITA ANTERIORMENTE -->
+                             <div id="trophy39" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                                 <div class="card-body"> <!-- descricao trofeu -->
+                                       <p>Você deve deixar o máximo de pessoas morrerem, quanto possível e escolher Além ao final do jogo:</p>
+                                       <ul>
+                                         <li>Capítulo: Sem Teto
+                                           <ul>
+                                             <li>Walter - Você pode esperar Jodie entrar em colapso ou faça Jodie interagir com a porta e ir para o segundo andar deixando ele para trás.</li>
+                                             <li>Jimmy - Enquanto no segundo andar, você pode esperar até Jodie entrar em colapso ou derrubar a porta, ignorar Jimmy e pular pela Janela.</li>
+                                           </ul>
+                                         </li>
+                                         <li>Capítulo: Navajo
+                                           <ul>
+                                             <li>Paul - Quando voltar ao Rancho, ignore Paul e complete o Ritual, não cure ele.</li>
+                                           </ul>
+                                         </li>
+                                         <li>Capítulo: Norah
+                                           <ul>
+                                             <li>Norah - Use Aiden para parar o coração dela</li>
+                                           </ul>
+                                         </li>
+                                         <li>Capítulo: O Sol Negro
+                                           <ul>
+                                             <li>Cole: Quando Cole for atacado por entidades, faça Jodie deixar ele pra tras e ir para o elevador. Ou falhando nas QTE de correr até a porta.</li>
+                                             <li>Ryan: Encontre Nathan dentro do Sol Negro, faça ele atirar em Jodie (opções ‘culpa’ e ‘frio’ deve funcionar). Agora não faça nada e Ryan irá salvar Jodie.</li>
+                                           </ul>
+                                         </li>
+                                       </ul>
+                                 </div>
+                             </div>
+                           </div>
+                           <!-- /div para cada trofeu -->
+                           <!-- div para cada trofeu -->
+                           <div class="card">
+                             <div class="card-header" id="headingOne">
+                               <a data-toggle="collapse" data-target="#trophy40" aria-expanded="true" aria-controls="collapseOne"> <!-- CUIDADO no data-target e ID na div de descricao e mudar pra cada trofeu -->
+                                 <div class="row align-items-start"><!-- DIV PARA CADA TROFEU -->
+                               <div class="col-md-2"><!-- IMAGEM DESCRIÇÂO E TITULO DO TROFEU -->
+                                 <image class="img-thumbnail" src="images/silver.png" height="30px" ></image>
+                               </div>
+                               <div class="col-md-10">
+                                 <font color="#6583be"><h5>Explorador</h5></font>
+                                 <font size="2"><p>Encontrou todos os bônus.</p></font>
+                               </div>
+                             </div>
+                               </a>
+                             </div>
+                               <!-- ID DITA ANTERIORMENTE -->
+                             <div id="trophy40" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                                 <div class="card-body"> <!-- descricao trofeu -->
+                                       <p>Existem um Total de 22 Colecionáveis no jogo. Apenas 20 podem ser localizados, enquanto 2 são relacionados a história. Somente Aiden pode pegar estes itens. Eles parecem com orbes com uma aura azul flutuando. Abaixo um vídeo para a localização de todos.</p>
+                                      <div class="embed-responsive embed-responsive-4by3">
+                                         <iframe class="embed-responsive-item" src="https://www.youtube.com/watch?v=35w-c32OQl8"></iframe>
+                                      </div>
+                                 </div>
+                             </div>
+                           </div>
+                           <!-- /div para cada trofeu -->
+                           <!-- div para cada trofeu -->
+                           <div class="card">
+                             <div class="card-header" id="headingOne">
+                               <a data-toggle="collapse" data-target="#trophy41" aria-expanded="true" aria-controls="collapseOne"> <!-- CUIDADO no data-target e ID na div de descricao e mudar pra cada trofeu -->
+                                 <div class="row align-items-start"><!-- DIV PARA CADA TROFEU -->
+                               <div class="col-md-2"><!-- IMAGEM DESCRIÇÂO E TITULO DO TROFEU -->
+                                 <image class="img-thumbnail" src="images/gold.png" height="30px" ></image>
+                               </div>
+                               <div class="col-md-10">
+                                 <font color="#6583be"><h5>Juntos até o Fim</h5></font>
+                                 <font size="2"><p>Terminou o jogo no MODO EM DUPLA.</p></font>
+                               </div>
+                             </div>
+                               </a>
+                             </div>
+                               <!-- ID DITA ANTERIORMENTE -->
+                             <div id="trophy41" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                                 <div class="card-body"> <!-- descricao trofeu -->
+                                       <p>Para este troféu você DEVE jogar o jogo inteiro em COOP. Não pode ser usada a seleção de capítulos. Você deve jogar todo o jogo com dois controles (ou usando o Beyond App para Android ou iPhone, não sei se ainda funciona).</p>
+                                      <p>Dica: Sempre que você parar de jogar e for iniciar o jogo novamente, verifique nas suas opções se aparecem dificuldades separadas para Aiden e Jodie. Isso significa que os dois controles estão jogando. Se aparecer somente uma, volte ao menu principal, ligue os dois controles e continue a história de novo.</p>
+                                 </div>
+                             </div>
+                           </div>
+                           <!-- /div para cada trofeu -->
+                           <!-- div para cada trofeu -->
+                           <div class="card">
+                             <div class="card-header" id="headingOne">
+                               <a data-toggle="collapse" data-target="#trophy42" aria-expanded="true" aria-controls="collapseOne"> <!-- CUIDADO no data-target e ID na div de descricao e mudar pra cada trofeu -->
+                                 <div class="row align-items-start"><!-- DIV PARA CADA TROFEU -->
+                               <div class="col-md-2"><!-- IMAGEM DESCRIÇÂO E TITULO DO TROFEU -->
+                                 <image class="img-thumbnail" src="images/gold.png" height="30px" ></image>
+                               </div>
+                               <div class="col-md-10">
+                                 <font color="#6583be"><h5>Todos os Finais...</h5></font>
+                                 <font size="2"><p>Viu todos os finais.</p></font>
+                               </div>
+                             </div>
+                               </a>
+                             </div>
+                               <!-- ID DITA ANTERIORMENTE -->
+                             <div id="trophy42" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                                 <div class="card-body"> <!-- descricao trofeu -->
+                                       <p>Todos personagens vivem:</p>
+                                       <ul>
+                                         <li>Escolha Vida e depois Sozinha</li>
+                                         <li>Escolha Vida e depois com Zoey</li>
+                                         <li>Escolha Vida e depois com Jay</li>
+                                         <li>Escolha Vida e depois com Ryan</li>
+                                       </ul>
+                                       <p>Jogue novamente o capítulo Sol Negro (Norah deve estar viva):</p>
+                                       <ul>
+                                         <li>Escolha Além</li>
+                                       </ul>
+                                       <p>Jogue novamente o capítulo Sol Negro (após encontrar Nathan falhe o QTE enquanto as entidades atacam Jodie):</p>
+                                       <ul>
+                                         <li>Deixe Jodie morrer.</li>
+                                       </ul>
+                                       <p>Desde o capítulo Sem Teto até o fim com todos personagens mortos.</p>
+                                       <ul>
+                                         <li>Escolha Além.</li>
+                                       </ul>
+                                       <p>Jogue novamente o capítulo Sol Negro:</p>
+                                       <ul>
+                                         <li>Escolha Vida e depois Sozinha</li>
+                                       </ul>
+                                 </div>
+                             </div>
+                           </div>
+                           <!-- /div para cada trofeu -->
+                           <!-- div para cada trofeu -->
+                           <div class="card">
+                             <div class="card-header" id="headingOne">
+                               <a data-toggle="collapse" data-target="#trophy43" aria-expanded="true" aria-controls="collapseOne"> <!-- CUIDADO no data-target e ID na div de descricao e mudar pra cada trofeu -->
+                                 <div class="row align-items-start"><!-- DIV PARA CADA TROFEU -->
+                               <div class="col-md-2"><!-- IMAGEM DESCRIÇÂO E TITULO DO TROFEU -->
+                                 <image class="img-thumbnail" src="images/gold.png" height="30px" ></image>
+                               </div>
+                               <div class="col-md-10">
+                                 <font color="#6583be"><h5>Salvou Todos</h5></font>
+                                 <font size="2"><p>Salvou todos os personagens que poderiam ser salvos.</p></font>
+                               </div>
+                             </div>
+                               </a>
+                             </div>
+                               <!-- ID DITA ANTERIORMENTE -->
+                             <div id="trophy43" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                                 <div class="card-body"> <!-- descricao trofeu -->
+                                       <p><b>Você deve jogar toda história a partir do Capítulo: Sem Teto </b> <br>
+                                        Lista de personagens que podem ser salvos:</p>
+                                        <ul>
+                                          <li>Capítulo: Sem Teto
+                                            <ul>
+                                              <li>Walter - Use Aiden para a abrir a porta</li>
+                                              <li>Jimmy - Use Aiden para possuir ele e pular para segurança</li>
+                                            </ul>
+                                          </li>
+                                          <li>Capítulo: Navajo
+                                            <ul>
+                                              <li>Paul: Retorne ao rancho, entre no quarto e cure a ferida com Aiden</li>
+                                            </ul>
+                                          </li>
+                                          <li>Capítulo: Norah
+                                            <ul>
+                                              <li>Norah: Simplesmente saia do quarto</li>
+                                            </ul>
+                                          </li>
+                                          <li>Capítulo: O Sol Negro
+                                            <ul>
+                                              <li>Cole: Quando Cole for atacado, Jodie salva a vida dele carregando ele, e use Aiden para curar suas feridas</li>
+                                              <li>Ryan - Encontre Nathan dentro do Sol Negro e faça ele voltar a razão. Se Jodie estiver baleada, use Aiden para matar ele. Isto impedirá a morte de Ryan</li>
+                                            </ul>
+                                          </li>
+                                        </ul>
+                                 </div>
+                             </div>
+                           </div>
+                           <!-- /div para cada trofeu -->
+        <div class="card-footer text-muted">
+          Postado em 30, Agosto de 2017 por
+              <a href="#">PhDantu</a>
+          </div>
         </div>
 
-        <!-- Sidebar Widgets Column -->
-        <div class="col-md-4 position-sticky">
 
-		 <!-- Categories Widget -->
-          <div class="card my-4 position-sticky">
-            <h6 class="card-header">Troféus</h6>
-              <div class="row">
-				        <div class="col-lg-12 mb-4">
-            			<div id="list-example" class="list-group">
-  						         <a href="#trophy1" class="list-group-item list-group-item-action"><image src="images/gold.png" height="17px"> Resumo</a></image>
-            			     <a href="#trophy2" class="list-group-item list-group-item-action"><image src="images/gold.png" height="17px"> Sinfonia de troféus do horror</a>
-            			     <a href="#trophy3" class="list-group-item list-group-item-action"><image src="images/gold.png" height="17px"> Um conto de duas irmãs</a>
-            			     <a href="#trophy4" class="list-group-item list-group-item-action">O abismo fatídico</a>
-            			     <a href="#trophy5" class="list-group-item list-group-item-action">Olhos abertos</a>
-            			     <a href="#trophy6" class="list-group-item list-group-item-action">As quatro escravas do desejo</a>
-            			     <a href="#trophy7" class="list-group-item list-group-item-action">Estão vivos</a>
-            			     <a href="#trophy8" class="list-group-item list-group-item-action">É MESMO o fim</a>
-            			     <a href="#trophy9" class="list-group-item list-group-item-action">Single Portfolio Item</a>
-            			     <a href="#trophy10" class="list-group-item list-group-item-action">Blog Home 1</a>
-            		       <a href="#trophy11" class="list-group-item list-group-item-action">Blog Home 2</a>
-            			     <a href="#trophy12" class="list-group-item list-group-item-action list-group-item-action">Blog Post</a>
-            		       <a href="#trophy13" class="list-group-item list-group-item-action">Full Width Page</a>
-            			     <a href="#trophy14" class="list-group-item list-group-item-action">Sidebar Page</a>
-            			     <a href="#trophy15" class="list-group-item list-group-item-action">FAQ</a>
-            			     <a href="#trophy16" class="list-group-item list-group-item-action">404</a>
-            			     <a href="#trophy17" class="list-group-item list-group-item-action">Pricing Table</a>
-          			</div>
-              </div>
-            </div>
-         </div>
-
-
+          <!-- Sidebar Widgets Column -->
+          div class="col-md-4 position-sticky">
+          </div>
+        </div>
       </div>
       <!-- /.row -->
 	  <div class="row mb-4">
