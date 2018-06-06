@@ -18,7 +18,7 @@
 
   </head>
 
-  <body  data-spy="scroll" data-target="#list-example" data-offset-top="200">
+  <body>
 
     <!-- Navigation -->
     <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark fixed-top justify-content-between">
@@ -43,37 +43,39 @@
                 <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
                 <button class="btn btn-primary my-2 my-sm-0" type="submit">Search</button>
           </form>
-          
+
         </div>
       </div>
     </nav>
 
-    
     <!-- Page Content -->
     <div class="container">
 
       <!-- Page Heading/Breadcrumbs -->
       <img class="mt-4 mb-3" src="images/logo.png" height="50px" width="50px">
-      </img>
 
       <ol class="breadcrumb">
         <li class="breadcrumb-item">
           <a href="index.html">Home</a>
         </li>
         <li class="breadcrumb-item">
-          <a href="guias.html">Guias</a>
+          <a href="guias-2.html">Guias</a>
         </li>
-        <li class="breadcrumb-item active">Guia Until Dawn</li>
+        <li class="breadcrumb-item active">Guia Nex Machina</li>
       </ol>
 
-    <div class="row">
-		
+      <div class="row">
+
         <!-- Blog Entries Column -->
         <div class="col-md-12">
 
-         <!-- Blog Post -->
-		      <div class="card mb-4">
-        				<button class="btn btn-info" type="button" data-toggle="collapse" data-target="#resumo" aria-expanded="false" aria-controls="collapseExample">Resumo</button>
+          <!-- Blog Post - RESUMO -->
+          <div class="card">
+
+        				<button class="btn btn-info" type="button" data-toggle="collapse" data-target="#resumo" aria-expanded="false" aria-controls="collapseExample">
+    						Resumo
+  						</button>
+
     					<!-- este ID tem que estar igual ao data target desse trofeu, e assim para cada trofeu -->
     				<div id="resumo" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
       					<div class="card-body"> <!-- descricao trofeu -->
@@ -88,28 +90,27 @@
 									<tr>
 										<th scope="row">Troféus offline: </th>
 										<td>
-											45 ( 32 <img src="images/bronze.png" height="18px">
-											- 10 <img src="images/silver.png" height="18px">
-											- 2 <img src="images/gold.png" height="18px">
-											- 1 <img src="images/platinum.png" height="18px"> )
+											39 ( 23 <img src="images/bronze.png" height="18px">
+											- 11 <img src="images/silver.png" height="18px">
+											- 4 <img src="images/gold.png" height="18px">)
 										</td>
 									</tr>
 									<tr>
 										<th scope="row">Troféus online: </th>
 										<td>
-											3 ( 3 <img src="images/bronze.png" height="18px">)
+											0
 										</td>
 									</tr>
 									<tr>
 										<th scope="row">Zerar: </th>
 										<td>
-											1
+											1 ou 2 - Dependendo da habilidade.
 										</td>
 									</tr>
 									<tr>
 										<th scope="row">Troféus com Glitch: </th>
 										<td>
-											Troféus de <b>Caos Total</b> e <b>Qualquer coisa que eu faça...</b>
+											Nenhum
 										</td>
 									</tr>
 									<tr>
@@ -123,29 +124,50 @@
 						</div>
     				</div>
   				</div>
-  				<!-- /div para cada trofeu -->
-  			
-			<div id="accordion">
-				<!-- div para cada trofeu -->
+  				<!-- /RESUMO -->
+          <!-- div para cada trofeu -->
+    				<div class="card">
+    					<h6 class="card-header">Troféus</h6>
+      				<div class="card-header" id="headingOne">
+          			<a data-toggle="collapse" data-target="#trophy0" aria-expanded="true" aria-controls="collapseOne"> <!-- CUIDADO no data-target e ID na div de descricao e mudar pra cada trofeu -->
+          				<div class="row align-items-start"><!-- DIV PARA CADA TROFEU -->
+  							<div class="col-md-2"><!-- IMAGEM DESCRIÇÂO E TITULO DO TROFEU -->
+  								<image class="img-thumbnail" src="images/platinum.png" height="30px" ></image>
+  							</div>
+  							<div class="col-md-10">
+  								<font color="#6583be"><h5>Nex Incarnate</h5></font>
+  								<font size="2"><p>Obteve todos os troféus de Nex Machina.</p></font>
+  							</div>
+  						</div>
+          			</a>
+      				</div>
+      					<!-- ID DITA ANTERIORMENTE -->
+      				<div id="trophy0" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+        				<div class="card-body"> <!-- descricao trofeu -->
+  					    	Obtenha os troféus de Nex Machina.
+  						  </div>
+      				</div>
+    				</div>
+    			<!-- /div para cada trofeu -->
+          <!-- div para cada trofeu -->
           <div class="card">
-            <h6 class="card-header">Troféus</h6>
             <div class="card-header" id="headingOne">
               <a data-toggle="collapse" data-target="#trophy1" aria-expanded="true" aria-controls="collapseOne"> <!-- CUIDADO no data-target e ID na div de descricao e mudar pra cada trofeu -->
                 <div class="row align-items-start"><!-- DIV PARA CADA TROFEU -->
               <div class="col-md-2"><!-- IMAGEM DESCRIÇÂO E TITULO DO TROFEU -->
-                <image class="img-thumbnail" src="images/platinum.png" height="30px" ></image>
+                <image class="img-thumbnail" src="images/bronze.png" height="30px" ></image>
               </div>
               <div class="col-md-10">
-                <font class="BS-font-colorh5"><h5>Rei de Medici</h5></font> <!-- nome do trofeu -->
-                <font size="2"><p>Ganhe todos os outros troféus Just Cause 3.</p></font> <!-- detalhes -->
+                <font class="BS-font-colorh5"><h5>Madeira</h5></font> <!-- nome do trofeu -->
+                <font size="2"><p>Complete Floresta techno no modo Arcade em qualquer dificuldade.</p></font> <!-- detalhes -->
               </div>
             </div>
-              </a>     
+              </a>
             </div>
               <!-- este ID tem que estar igual ao data target desse trofeu, e assim para cada trofeu -->
             <div id="trophy1" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
                 <div class="card-body"> <!-- descricao trofeu -->
-                  Auto Explicativo
+                  Apenas conclua todos os níveis e derrote o boss do mundo Floresta Techno
                 </div>
             </div>
           </div>
@@ -159,19 +181,17 @@
                 <image class="img-thumbnail" src="images/bronze.png" height="30px" ></image>
               </div>
               <div class="col-md-10">
-                <font class="BS-font-colorh5"><h5>Sem balas!</h5></font> <!-- nome do trofeu -->
-                <font size="2"><p>Destrua todos Objetos de Caos em uma base militar sem usar armas, granadas ou explosivos plantados.</p></font> <!-- detalhes -->
+                <font class="BS-font-colorh5"><h5>Que friaca</h5></font> <!-- nome do trofeu -->
+                <font size="2"><p>Complete Montanha de cristal no modo Arcade em qualquer dificuldade.</p></font> <!-- detalhes -->
               </div>
             </div>
-              </a>     
+              </a>
             </div>
               <!-- este ID tem que estar igual ao data target desse trofeu, e assim para cada trofeu -->
             <div id="trophy2" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
                 <div class="card-body"> <!-- descricao trofeu -->
-                  <p>Este troféu é adquirido liberando uma base militar sem usar nenhum tipo de arma, o que quer dizer tu tem que fazer tudo no corpo a corpo e gancho. Você pode se guiar pelos símbolos no mapa, qualquer um dos dois contam para este troféu (assentamentos ou base militar):</p>
-                  <p><img src="https://lh6.googleusercontent.com/cmtfgjNsGtQPmnJPtEd81T0vmC1JlASkIY2CwBwTadS6ZO0KVy3aaH80C5R5ocyXCec8pwt1CzS6lBzrIr48u9o08syk8CU2Tk4joVlnwMcfiS5wZ7Gc5QFHl5ypS3ozajWhLMoX"><img src="https://lh3.googleusercontent.com/xtCXJ5ABqkCjQVSFQaJjDevgVLCRp42CkFktoNBzOML0csZJ3hj5-2WZfBluR0Qef9dTcB6samG1Jgu3mqDvUjTGubSy-o3Y_arJR6lhcrOl7p6tskH35N74LesQICiT69MYAqkP"></p>
-                  <p>Pode ser feito a qualquer momento, contanto que você tenha um dos locais intocados para liberar, mas é melhor esperar até você desbloquear e melhorar as habilidades.</p>
-                </div>
+                Apenas conclua todos os níveis e derrote o boss do mundo Montanha de cristal.
+            </div>
             </div>
           </div>
           <!-- /div para cada trofeu -->
@@ -184,18 +204,17 @@
                 <image class="img-thumbnail" src="images/bronze.png" height="30px" ></image>
               </div>
               <div class="col-md-10">
-                <font class="BS-font-colorh5"><h5>Meu pequeno homem-foguete</h5></font> <!-- nome do trofeu -->
-                <font size="2"><p>Prenda um inimigo em um cilindro de gás lançado. Adeo, amico!</p></font> <!-- detalhes -->
+                <font class="BS-font-colorh5"><h5>Prova de fogo</h5></font> <!-- nome do trofeu -->
+                <font size="2"><p>Complete Caverna de fogo no modo Arcade em qualquer dificuldade.</p></font> <!-- detalhes -->
               </div>
             </div>
-              </a>     
+              </a>
             </div>
               <!-- este ID tem que estar igual ao data target desse trofeu, e assim para cada trofeu -->
             <div id="trophy3" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
                 <div class="card-body"> <!-- descricao trofeu -->
-                  <p>Este troféu é conquistado ao prender um soldado a um dos grandes cilindros de gás que voam como um foguete quando você atira neles.</p>
-                  <img src="https://lh6.googleusercontent.com/MnrP14XN8-uJVs3Gi4gasQLvjQLttEl4Q_CnpSZcyi-vJhb0MaqM7F2vym2DxlC_sYvfxPtmo4_3n_QfsqT7dZKndo_uRaoEdLDS9C5iMvf37WTK2rE1JD89hWYsI_li7jAAY7vr">
-                </div>
+              Apenas conclua todos os níveis e derrote o boss do mundo Caverna de fogo.
+            </div>
             </div>
           </div>
           <!-- /div para cada trofeu -->
@@ -208,42 +227,17 @@
                 <image class="img-thumbnail" src="images/bronze.png" height="30px" ></image>
               </div>
               <div class="col-md-10">
-                <font class="BS-font-colorh5"><h5>Isso era pra ser um velho oeste</h5></font> <!-- nome do trofeu -->
-                <font size="2"><p>Destrua todos os Objetos de Caos em uma Base sem sair do seu veículo.</p></font> <!-- detalhes -->
+                <font class="BS-font-colorh5"><h5>Distopia</h5></font> <!-- nome do trofeu -->
+                <font size="2"><p>Complete Cidade das máquinas no modo Arcade em qualquer dificuldade.</p></font> <!-- detalhes -->
               </div>
             </div>
-              </a>     
+              </a>
             </div>
               <!-- este ID tem que estar igual ao data target desse trofeu, e assim para cada trofeu -->
             <div id="trophy4" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
                 <div class="card-body"> <!-- descricao trofeu -->
-                  <p>Este troféu é adquirido liberando uma base militar sem sair do seu veículo. Assim como o troféu dito anteriormente, pode ser feito em ambas essas localizações:</p>
-                  <p><img src="https://lh6.googleusercontent.com/cmtfgjNsGtQPmnJPtEd81T0vmC1JlASkIY2CwBwTadS6ZO0KVy3aaH80C5R5ocyXCec8pwt1CzS6lBzrIr48u9o08syk8CU2Tk4joVlnwMcfiS5wZ7Gc5QFHl5ypS3ozajWhLMoX"><img src="https://lh3.googleusercontent.com/xtCXJ5ABqkCjQVSFQaJjDevgVLCRp42CkFktoNBzOML0csZJ3hj5-2WZfBluR0Qef9dTcB6samG1Jgu3mqDvUjTGubSy-o3Y_arJR6lhcrOl7p6tskH35N74LesQICiT69MYAqkP"></p>
-                  <p>Pode ser feito a qualquer momento, contanto que você tenha um dos locais intocados para liberar.</p>
-                </div>
+              Apenas conclua todos os níveis e derrote o boss do mundo Cidade das máquinas.
             </div>
-          </div>
-          <!-- /div para cada trofeu -->
-          <!-- div para cada trofeu -->
-          <div class="card">
-            <div class="card-header" id="headingOne">
-              <a data-target="#trophy5" data-toggle="collapse"  aria-expanded="true" aria-controls="collapseOne"> <!-- CUIDADO no data-target e ID na div de descricao e mudar pra cada trofeu -->
-                <div class="row align-items-start"><!-- DIV PARA CADA TROFEU -->
-              <div class="col-md-2"><!-- IMAGEM DESCRIÇÂO E TITULO DO TROFEU -->
-                <image class="img-thumbnail" src="images/bronze.png" height="30px" ></image>
-              </div>
-              <div class="col-md-10">
-                <font class="BS-font-color"><h5>Caia fora daqui!</h5></font> <!-- nome do trofeu -->
-                <font size="2"><p>Plante um Explosivo com Impulso em um soldado inimigo. E então, faça-o voar.</p></font> <!-- detalhes -->
-              </div>
-            </div>
-              </a>     
-            </div>
-              <!-- este ID tem que estar igual ao data target desse trofeu, e assim para cada trofeu -->
-            <div id="trophy5" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
-                <div class="card-body"> <!-- descricao trofeu -->
-                  <p>Você deve colocar um C4 em um soldado inimigo enquanto você tem o Mod de impulso de engrenagem ativado e lançar ele com isso. Pode ser feito a qualquer momento, depois de desbloquear o Mod de Impulso de Explosivo. Este módulo requer equipamentos na categoria de Módulos Explosivos.</p>
-                </div>
             </div>
           </div>
           <!-- /div para cada trofeu -->
@@ -256,17 +250,17 @@
                 <image class="img-thumbnail" src="images/bronze.png" height="30px" ></image>
               </div>
               <div class="col-md-10">
-                <font class="BS-font-colorh5"><h5>Hora de se gabar</h5></font> <!-- nome do trofeu -->
-                <font size="2"><p>Bata a pontuação de um jogador em um Desafio.</p></font> <!-- detalhes -->
+                <font class="BS-font-colorh5"><h5>Puramente experimental</h5></font> <!-- nome do trofeu -->
+                <font size="2"><p>Complete Laboratórios do futuro no modo Arcade em qualquer dificuldade.</p></font> <!-- detalhes -->
               </div>
             </div>
-              </a>     
+              </a>
             </div>
               <!-- este ID tem que estar igual ao data target desse trofeu, e assim para cada trofeu -->
             <div id="trophy6" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
                 <div class="card-body"> <!-- descricao trofeu -->
-                  <p>Este troféu é ganho ao vencer qualquer desafio de um jogador (amigo ou não) no placar de líderes (leaderboard).</p>
-                </div>
+              Apenas conclua todos os níveis e derrote o boss do mundo Cidade das máquinas.
+            </div>
             </div>
           </div>
           <!-- /div para cada trofeu -->
@@ -279,16 +273,17 @@
                 <image class="img-thumbnail" src="images/bronze.png" height="30px" ></image>
               </div>
               <div class="col-md-10">
-                <font class="BS-font-colorh5"><h5>Juntando engrenagens</h5></font> <!-- nome do trofeu -->
-                <font size="2"><p>Ganhe ao menos 3 Engrenagens em um Desafio.</p></font> <!-- detalhes -->
+                <font class="BS-font-colorh5"><h5>O trono orbital</h5></font> <!-- nome do trofeu -->
+                <font size="2"><p>Complete Estação espacial no modo Arcade em qualquer dificuldade.</p></font> <!-- detalhes -->
               </div>
             </div>
-              </a>     
+              </a>
             </div>
               <!-- este ID tem que estar igual ao data target desse trofeu, e assim para cada trofeu -->
             <div id="trophy7" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
                 <div class="card-body"> <!-- descricao trofeu -->
-                  <p>Verifique <b>Todas as engrenagens</b></p>
+                  <p>Apenas conclua todos os níveis e derrote o boss do mundo Estação espacial. <br>
+                  <b>Nota:</b> Este mundo só é jogável na dificuldade Experiente ou maior.</p>
             </div>
             </div>
           </div>
@@ -302,17 +297,17 @@
                 <image class="img-thumbnail" src="images/bronze.png" height="30px" ></image>
               </div>
               <div class="col-md-10">
-                <font class="BS-font-colorh5"><h5>Está engrenado</h5></font> <!-- nome do trofeu -->
-                <font size="2"><p>Ganhe 5 Engrenagens em um Desafio.</p></font> <!-- detalhes -->
+                <font class="BS-font-colorh5"><h5>Iniciante</h5></font> <!-- nome do trofeu -->
+                <font size="2"><p>Complete o modo Arcade na dificuldade Iniciante.</p></font> <!-- detalhes -->
               </div>
             </div>
-              </a>     
+              </a>
             </div>
               <!-- este ID tem que estar igual ao data target desse trofeu, e assim para cada trofeu -->
             <div id="trophy8" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
                 <div class="card-body"> <!-- descricao trofeu -->
-                    <p>Verifique <b>Todas as engrenagens</b></p>
-                </div>
+               Verifique <b>Veterano</b> <img src="https://lh5.googleusercontent.com/4vzRgjHLpTViB_lVgoIGpWDLOJLmYJXQo7cMPRj1M36kt77o8o1z7_9L3iu0wH-hPPkEABhToFJh7ksJr0AfJofUARXU7NTjEU2KosX9Uo_apszHVIAKnTry9zOcuiMt9DtAxGB5">
+            </div>
             </div>
           </div>
           <!-- /div para cada trofeu -->
@@ -325,28 +320,17 @@
                 <image class="img-thumbnail" src="images/bronze.png" height="30px" ></image>
               </div>
               <div class="col-md-10">
-                <font class="BS-font-colorh5"><h5>Engrenagens de montão</h5></font> <!-- nome do trofeu -->
-                <font size="2"><p>Ganhe ao menos 3 Engrenagens em um Desafio de cada tipo</p></font> <!-- detalhes -->
+                <font class="BS-font-colorh5"><h5>Experiente</h5></font> <!-- nome do trofeu -->
+                <font size="2"><p>Complete o modo Arcade na dificuldade Experiente.</p></font> <!-- detalhes -->
               </div>
             </div>
-              </a>     
+              </a>
             </div>
               <!-- este ID tem que estar igual ao data target desse trofeu, e assim para cada trofeu -->
             <div id="trophy9" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
                 <div class="card-body"> <!-- descricao trofeu -->
-                  <p>Este troféu deve ser ganho ao realizar uma pontuação que lhe conceda pelo menos 3 Engrenagens em pelo menos um dos desafios de cada tipo. São um total de 8 tipos de desafios</p>
-                  <ul>
-                    <li>Wingsuit Courses</li>
-                    <li>Land Races</li>
-                    <li>Scrapyard Scrambles</li>
-                    <li>Crash Bombs</li>
-                    <li>Shooting Galleries</li>
-                    <li>Destruction Frenzies</li>
-                    <li>Sea Races</li>
-                    <li>Air Races</li>
-                  </ul>
-                  <p>Para mais informações verifique <b>Todas as engrenagens</b></p>
-                </div>
+                  Verifique <b>Veterano</b> <img src="https://lh5.googleusercontent.com/4vzRgjHLpTViB_lVgoIGpWDLOJLmYJXQo7cMPRj1M36kt77o8o1z7_9L3iu0wH-hPPkEABhToFJh7ksJr0AfJofUARXU7NTjEU2KosX9Uo_apszHVIAKnTry9zOcuiMt9DtAxGB5">
+            </div>
             </div>
           </div>
           <!-- /div para cada trofeu -->
@@ -356,20 +340,33 @@
               <a data-target="#trophy10" data-toggle="collapse"  aria-expanded="true" aria-controls="collapseOne"> <!-- CUIDADO no data-target e ID na div de descricao e mudar pra cada trofeu -->
                 <div class="row align-items-start"><!-- DIV PARA CADA TROFEU -->
               <div class="col-md-2"><!-- IMAGEM DESCRIÇÂO E TITULO DO TROFEU -->
-                <image class="img-thumbnail" src="images/silver.png" height="30px" ></image>
+                <image class="img-thumbnail" src="images/bronze.png" height="30px" ></image>
               </div>
               <div class="col-md-10">
-                <font class="BS-font-colorh5"><h5>Todas as engrenagens</h5></font> <!-- nome do trofeu -->
-                <font size="2"><p>Ganhe 5 Engrenagens em todos os Desafios.</p></font> <!-- detalhes -->
+                <font class="BS-font-colorh5"><h5>Veterano</h5></font> <!-- nome do trofeu -->
+                <font size="2"><p>Complete o modo Arcade na dificuldade Veterano.</p></font> <!-- detalhes -->
               </div>
             </div>
-              </a>     
+              </a>
             </div>
               <!-- este ID tem que estar igual ao data target desse trofeu, e assim para cada trofeu -->
             <div id="trophy10" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
                 <div class="card-body"> <!-- descricao trofeu -->
-                  <p>Este troféu é adquirido após você ganhar 5 Engrenagens em todos os 112 desafios do jogo. Este troféu é a tarefa mais difícil do jogo e depende das suas habilidades, o que pode acarretar em ser o que mais irá consumir seu tempo. Alguns desafios requerem alguma prática enquanto alguns beiram o impossível sem desbloquear os Mods antes.</p>
-                </div>
+                  <p>Este não será um troféu fácil, você precisa completar todo o Arcade, ou seja, finalizar todos os 6 mundos em sequência com apenas 10 Continues. <br>
+                  A diferença entre essa dificuldade pras anteriores, é que os inimigos são mais rápidos e vem em maior quantidade.</p>
+                  <p>Depende muito de habilidade e reflexos, pois o jogo é bem frenético.</p>
+                  <p><b>Dicas:</b></p>
+                  <ul>
+                    <li>Não tente salvar humanos, foque apenas em derrotar os inimigos para ganhar itens, e passar os níveis de maneira simples.</li>
+                    <li>Conheça seus inimigos, reconheça sons dos inimigos, e os padrões de ataques, principalmente dos bosses.</li>
+                    <li>Evite Níveis secretos.</li>
+                    <li>Seja paciente e treine.</li>
+                    <li>Os últimos 2 bosses (O Arquiteto e IA Suprema) são os mais difíceis na minha opinião. Então veja vídeos de táticas etc.</li>
+                    <li>Usar a arma secundária Detonador(Detonator), ajuda pois ela destrói a maioria dos tiros dos inimigos (inclusive boss).</li>
+                    <li>Corrida Tripla (Triple Dash) é essencial.</li>
+                    <li>Uma vez usado um Continue na IA Suprema, você terá mais problemas ao derrotá-la por que tem grande chance de perder a Corrida Tripla.</li>
+                  </ul>
+              </div>
             </div>
           </div>
           <!-- /div para cada trofeu -->
@@ -379,20 +376,21 @@
               <a data-target="#trophy11" data-toggle="collapse"  aria-expanded="true" aria-controls="collapseOne"> <!-- CUIDADO no data-target e ID na div de descricao e mudar pra cada trofeu -->
                 <div class="row align-items-start"><!-- DIV PARA CADA TROFEU -->
               <div class="col-md-2"><!-- IMAGEM DESCRIÇÂO E TITULO DO TROFEU -->
-                <image class="img-thumbnail" src="images/bronze.png" height="30px" ></image>
+                <image class="img-thumbnail" src="images/silver.png" height="30px" ></image>
               </div>
               <div class="col-md-10">
-                <font class="BS-font-colorh5"><h5>(Apenas) Causando o caos</h5></font> <!-- nome do trofeu -->
-                <font size="2"><p>Receba 1.000 de Caos.</p></font> <!-- detalhes -->
+                <font class="BS-font-colorh5"><h5>Mestre</h5></font> <!-- nome do trofeu -->
+                <font size="2"><p>Complete Floresta techno na dificuldade Mestre.</p></font> <!-- detalhes -->
               </div>
             </div>
-              </a>     
+              </a>
             </div>
               <!-- este ID tem que estar igual ao data target desse trofeu, e assim para cada trofeu -->
             <div id="trophy11" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
                 <div class="card-body"> <!-- descricao trofeu -->
-                  <p>Verifique <b>Milionário do caos</b></p>
-                </div>
+                  <p>A principal diferença entre este nível para o anterior é que os monstros são mais rápidos, e a cada inimigo derrotado, um tiro virá na sua direção o que torna as coisas bem complicadas. <br>
+                  E o Raiotrônico usará de “caveiras” aleatórias adicionais como ataque. Mais uma vez a arma secundária Detonador deve ajudar. Boa sorte.</p>
+            </div>
             </div>
           </div>
           <!-- /div para cada trofeu -->
@@ -402,20 +400,20 @@
               <a data-target="#trophy12" data-toggle="collapse"  aria-expanded="true" aria-controls="collapseOne"> <!-- CUIDADO no data-target e ID na div de descricao e mudar pra cada trofeu -->
                 <div class="row align-items-start"><!-- DIV PARA CADA TROFEU -->
               <div class="col-md-2"><!-- IMAGEM DESCRIÇÂO E TITULO DO TROFEU -->
-                <image class="img-thumbnail" src="images/silver.png" height="30px" ></image>
+                <image class="img-thumbnail" src="images/gold.png" height="30px" ></image>
               </div>
               <div class="col-md-10">
-                <font class="BS-font-colorh5"><h5>Caos é meu nome do meio</h5></font> <!-- nome do trofeu -->
-                <font size="2"><p>Receba 100.000 de Caos</p></font> <!-- detalhes -->
+                <font class="BS-font-colorh5"><h5>Sem créditos</h5></font> <!-- nome do trofeu -->
+                <font size="2"><p>Complete o modo Arcade na dificuldade Experiente sem usar continuar.</p></font> <!-- detalhes -->
               </div>
             </div>
-              </a>     
+              </a>
             </div>
               <!-- este ID tem que estar igual ao data target desse trofeu, e assim para cada trofeu -->
             <div id="trophy12" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
                 <div class="card-body"> <!-- descricao trofeu -->
-                  <p>Verifique <b>Milionário do caos</b></p>
-                </div>
+                  Verifique <b>Veterano</b> <img src="https://lh5.googleusercontent.com/4vzRgjHLpTViB_lVgoIGpWDLOJLmYJXQo7cMPRj1M36kt77o8o1z7_9L3iu0wH-hPPkEABhToFJh7ksJr0AfJofUARXU7NTjEU2KosX9Uo_apszHVIAKnTry9zOcuiMt9DtAxGB5">
+            </div>
             </div>
           </div>
           <!-- /div para cada trofeu -->
@@ -425,21 +423,19 @@
               <a data-target="#trophy13" data-toggle="collapse"  aria-expanded="true" aria-controls="collapseOne"> <!-- CUIDADO no data-target e ID na div de descricao e mudar pra cada trofeu -->
                 <div class="row align-items-start"><!-- DIV PARA CADA TROFEU -->
               <div class="col-md-2"><!-- IMAGEM DESCRIÇÂO E TITULO DO TROFEU -->
-                <image class="img-thumbnail" src="images/gold.png" height="30px" ></image>
+                <image class="img-thumbnail" src="images/bronze.png" height="30px" ></image>
               </div>
               <div class="col-md-10">
-                <font class="BS-font-colorh5"><h5>Milionário do caos</h5></font> <!-- nome do trofeu -->
-                <font size="2"><p>Receba 1.000.000 de Caos.</p></font> <!-- detalhes -->
+                <font class="BS-font-colorh5"><h5>É um segredo para todos</h5></font> <!-- nome do trofeu -->
+                <font size="2"><p>Descubra um nível secreto.</p></font> <!-- detalhes -->
               </div>
             </div>
-              </a>     
+              </a>
             </div>
               <!-- este ID tem que estar igual ao data target desse trofeu, e assim para cada trofeu -->
             <div id="trophy13" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
                 <div class="card-body"> <!-- descricao trofeu -->
-                  <p> Este troféu é conquistado quando você chegar a um total de 1 milhão de pontos de Caos. Você ganha pontos de caos, por destruir quaisquer objetos de caos ou veículos inimigos, assim como um pequena quantidade por completar atividades aleatórias pelo mapa. Este troféu deve vir naturalmente conforme o seu caminho para o troféu <b>O vencedor leva tudo, de novo.</b><br>
-                  Se você você conseguir fazer todo o resto dos troféus sem ganhar este, a maneira mais rápida de ganhar pontos de caos seria refazer as bases militares na Insula Dracon e liberar elas de novo, destruindo todos os objetos do Caos.</p>
-                  <p> <b>AVISO DE GLITCH:</b> Houve alguns usuários informando que não ganharam este troféu ao chegar ao total de 1 milhão. As vezes o total mostrado pelo jogo é mais elevado do que a quantidade verdadeira de pontos. Se isso acontecer feche completamente seu jogo, e comece de novo, assim que o jogo carregar novamente  este deve ser o seu total real de prontos de Caos, provavelmente estará um pouco menor que antes.</p>
+              Níveis secretos são acessados destruindo pequenos Arcades (fliperamas) escondidos em níveis. Mas atirar neles, você reconhecerá pelo som diferente quando o tiro estiver acertando. Basta destruir e passar o nível atual normalmente.
             </div>
             </div>
           </div>
@@ -453,17 +449,24 @@
                 <image class="img-thumbnail" src="images/bronze.png" height="30px" ></image>
               </div>
               <div class="col-md-10">
-                <font class="BS-font-colorh5"><h5>Terra, vento e mar</h5></font> <!-- nome do trofeu -->
-                <font size="2"><p>Desbloqueie pelo menos um veículo de cada categoria na Entrega Rebelde: terrestre, aéreo e marítimo.</p></font> <!-- detalhes -->
+                <font class="BS-font-colorh5"><h5>Alguém precisa construir sinalizadores adicionais</h5></font> <!-- nome do trofeu -->
+                <font size="2"><p>Destrua todos os sinalizadores secretos em um único mundo.</p></font> <!-- detalhes -->
               </div>
             </div>
-              </a>     
+              </a>
             </div>
               <!-- este ID tem que estar igual ao data target desse trofeu, e assim para cada trofeu -->
             <div id="trophy14" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
                 <div class="card-body"> <!-- descricao trofeu -->
-                  <p>Este troféu é ganho ao desbloquear a habilidade de drop de pelo menos um de cada tipo de veículo pelo menu de Entrega Rebelde (não conta os que ja estão desbloqueados de inicio do jogo, tem que ser os novos). Quando diz Desbloqueado, também quer dizer os que você desbloqueou por liberar Bases Militares, não os que foram levados a garagem.</p>
-                </div>
+              <p>Sinalizadores são pequenas torres escondidas, nos níveis de um mundo. Quando você destruir um aparecerá a mensagem que destruiu um sinalizador.</p>
+              <img src="https://lh5.googleusercontent.com/jhcgEX2TB8EZoJ0i3X84rXNo1qIAGeSi3aRUAcKesFggdy_QcsTMtpjxtCJvG-5FCmY5qwTbt2VWRlSGkDWomObBhDGZ2BWa8BflznYW9xrORQTer9S9hSYx4oyblOcn1QRR-m7o">
+              <p>No primeiro mundo Floresta Techno eles se encontrados nos seguintes níveis:</p>
+              <ul>
+                <li>Nível 2: Logo no local de início, entre as árvores logo acima do herói.</li>
+                <li>Nível 8: Na “outra ponta do nível” haverá uma parte de vidro, e umas partículas soltas no ar, se na parte inferior da parte de vidro você andar pra esquerda, irá se formar um chão pra você passar. Basta andar para esquerda e pra cima.</li>
+                <li>Nível 9: Na parte mais ao norte do nível, você terá que destruir uma parede que tem um uma caixa no meio. Basta atirar que você verá o Sinalizador (Com um humano secreto destruindo o cenário a esquerda também).</li>
+              </ul>
+            </div>
             </div>
           </div>
           <!-- /div para cada trofeu -->
@@ -476,22 +479,17 @@
                 <image class="img-thumbnail" src="images/silver.png" height="30px" ></image>
               </div>
               <div class="col-md-10">
-                <font class="BS-font-colorh5"><h5>Temos que pegar!</h5></font> <!-- nome do trofeu -->
-                <font size="2"><p>Colete todos os veículos disponíveis levando-os até as Garagens do Mario.</p></font> <!-- detalhes -->
+                <font class="BS-font-colorh5"><h5>Questão de prioridades!</h5></font> <!-- nome do trofeu -->
+                <font size="2"><p>Elimine o Raiotrônico na dificuldade Experiente com um ou mais inimigos ainda vivos.</p></font> <!-- detalhes -->
               </div>
             </div>
-              </a>     
+              </a>
             </div>
               <!-- este ID tem que estar igual ao data target desse trofeu, e assim para cada trofeu -->
             <div id="trophy15" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
                 <div class="card-body"> <!-- descricao trofeu -->
-                  <p>Esse troféu é ganho por coletar todos os veículos aleatórios que aparecem e levando eles a uma Garagem do Mario para que eles estejam disponívels no menu de Entrega Rebelde. Existem 47 veículos que você precisa coletar e a terceira engrenagem de veículo que você desbloqueia é um detector que mostra quando há veículos por perto.</p>
-                  <p> Vídeo guia abaixo, por PowerPyx
-                      https://www.youtube.com/watch?v=qnp-oPyd_Oo</p>
-                  <p> Nota:<br>
-                  Existem dois veículos que são os mais difíceis de se localizar no jogo: Squalo X7 (barco) e Autostraad Reisender 7 (Semi truck).<br>
-                  O primeiro tem apenas dois locais onde ele aparece em lagos.<br>
-                  O segundo parece ter o menor percentual de aparecer no jogo, então você deve pegar um assim que possível.</p>
+              <p>Você precisa derrotar o boss do primeiro mundo, deixando pelo menos um inimigos ainda vivo.</p>
+              <p> Dica: Deixe um inimigo e fique sempre correndo em um sentido na volta do Raiotrônico, evitando de atirar o inimigo, focando apenas no boss.</p>
             </div>
             </div>
           </div>
@@ -505,19 +503,17 @@
                 <image class="img-thumbnail" src="images/bronze.png" height="30px" ></image>
               </div>
               <div class="col-md-10">
-                <font class="BS-font-colorh5"><h5>Tomb Raider</h5></font> <!-- nome do trofeu -->
-                <font size="2"><p>Honre cada Tumba Antiga.</p></font> <!-- detalhes -->
+                <font class="BS-font-colorh5"><h5>Raios irados</h5></font> <!-- nome do trofeu -->
+                <font size="2"><p>Corra através de 3 raios laser com uma única corrida.</p></font> <!-- detalhes -->
               </div>
             </div>
-              </a>     
+              </a>
             </div>
               <!-- este ID tem que estar igual ao data target desse trofeu, e assim para cada trofeu -->
             <div id="trophy16" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
                 <div class="card-body"> <!-- descricao trofeu -->
-                  <p>Este troféu é ganho por “coletar” todas as Tumbas Antigas no jogo.</p>
-                  <img src="https://lh5.googleusercontent.com/eksiHET_w9rGXQmsRO0a04EzcM6zTe1tQKcMHKJ4YW-3zT3ApwOb9Ar2whoiN-WgRKFBtVOf1WBlpyhiC1IKh860ds74fLPk5aG1X2I-ccJfX4zw4EtpuQD3ru3JJt1vusIBCseb">
-                  <p>Existem um total de 23 Tumbas Antigas.</p>
-                </div>
+              Virá naturalmente, basta atravessar 3 raios laser com uma única corrida.
+            </div>
             </div>
           </div>
           <!-- /div para cada trofeu -->
@@ -527,22 +523,20 @@
               <a data-target="#trophy17" data-toggle="collapse"  aria-expanded="true" aria-controls="collapseOne"> <!-- CUIDADO no data-target e ID na div de descricao e mudar pra cada trofeu -->
                 <div class="row align-items-start"><!-- DIV PARA CADA TROFEU -->
               <div class="col-md-2"><!-- IMAGEM DESCRIÇÂO E TITULO DO TROFEU -->
-                <image class="img-thumbnail" src="images/bronze.png" height="30px" ></image>
+                <image class="img-thumbnail" src="images/silver.png" height="30px" ></image>
               </div>
               <div class="col-md-10">
-                <font class="BS-font-colorh5"><h5>Lembre-se dos caídos</h5></font> <!-- nome do trofeu -->
-                <font size="2"><p>Acenda uma vela em cada Altar Rebelde.</p></font> <!-- detalhes -->
+                <font class="BS-font-colorh5"><h5>Toma!</h5></font> <!-- nome do trofeu -->
+                <font size="2"><p>Finalize um chefão com um ataque de espada.</p></font> <!-- detalhes -->
               </div>
             </div>
-              </a>     
+              </a>
             </div>
               <!-- este ID tem que estar igual ao data target desse trofeu, e assim para cada trofeu -->
             <div id="trophy17" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
                 <div class="card-body"> <!-- descricao trofeu -->
-                  <p>Este troféu é ganho por “coletar” todos os Altar Rebeldes por Medici. Eles parecem com pequenas caixas azuis, como na imagem a seguir.</p>
-                  <img src="https://lh3.googleusercontent.com/xP_xjPKvvkVZtTJTojpf3eOcRqAAjKYwJzua9OWMbrFMLhvs5g2NEQI7MqXJesl0w7mmn8hk_G8F4A_e0NppYEF8qPWY-MfVuARZmS5qwXZZ9l7w49O6nbOIec5xLMTLlUXbMwf3">
-                  <p>Existem um total de 49 Altares.</p>
-                </div>
+              Basta deixar o Boss(Chefão) com pouquíssima vida, se aproximar e usar o ataque da espada.
+            </div>
             </div>
           </div>
           <!-- /div para cada trofeu -->
@@ -552,21 +546,19 @@
               <a data-target="#trophy18" data-toggle="collapse"  aria-expanded="true" aria-controls="collapseOne"> <!-- CUIDADO no data-target e ID na div de descricao e mudar pra cada trofeu -->
                 <div class="row align-items-start"><!-- DIV PARA CADA TROFEU -->
               <div class="col-md-2"><!-- IMAGEM DESCRIÇÂO E TITULO DO TROFEU -->
-                <image class="img-thumbnail" src="images/bronze.png" height="30px" ></image>
+                <image class="img-thumbnail" src="images/silver.png" height="30px" ></image>
               </div>
               <div class="col-md-10">
-                <font class="BS-font-colorh5"><h5>Diário de um louco</h5></font> <!-- nome do trofeu -->
-                <font size="2"><p>Junte todas as fitas de Di Ravello.</p></font> <!-- detalhes -->
+                <font class="BS-font-colorh5"><h5>Olha, mãe!</h5></font> <!-- nome do trofeu -->
+                <font size="2"><p>Termine um nível sem atirar com sua arma primária ou secundária.</p></font> <!-- detalhes -->
               </div>
             </div>
-              </a>     
+              </a>
             </div>
               <!-- este ID tem que estar igual ao data target desse trofeu, e assim para cada trofeu -->
             <div id="trophy18" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
                 <div class="card-body"> <!-- descricao trofeu -->
-                  <p>Este troféu é ganho por coletar todas as fitas de áudio de Ri Ravello que estão espalhadas por Medici. Eles parecem pequenos gravadores de fita que ficam no chão.</p>
-                  <img src="https://lh6.googleusercontent.com/SK0PIwCfnnhN_nbs0kPp6DXX6d7V3qR81Q7PuWFgrEOqmmuAQ5AQXgNMfVcHLR0mBgb7aT59Ud2gAduEIMWpSClAB7iWkPSYFsJ_YF0DMbXohcme6zGKLfuZ3p--TxfxPg3H9vOg" alt="Fita Di Ravello no chão">
-                  <p>Existe um total de 71 fitas no total</p>
+              Requer dois controles, você precisa apenas finalizar um nível, em que um dos jogadores (controle) não atire nem uma vez. Enquanto o outro dá conta de todos os inimigos.
             </div>
             </div>
           </div>
@@ -577,21 +569,19 @@
               <a data-target="#trophy19" data-toggle="collapse"  aria-expanded="true" aria-controls="collapseOne"> <!-- CUIDADO no data-target e ID na div de descricao e mudar pra cada trofeu -->
                 <div class="row align-items-start"><!-- DIV PARA CADA TROFEU -->
               <div class="col-md-2"><!-- IMAGEM DESCRIÇÂO E TITULO DO TROFEU -->
-                <image class="img-thumbnail" src="images/bronze.png" height="30px" ></image>
+                <image class="img-thumbnail" src="images/silver.png" height="30px" ></image>
               </div>
               <div class="col-md-10">
-                <font class="BS-font-colorh5"><h5>Antigo é legal</h5></font> <!-- nome do trofeu -->
-                <font size="2"><p>Encontre todas peças antigas de armas e veículos.</p></font> <!-- detalhes -->
+                <font class="BS-font-colorh5"><h5>Sem as mãos!</h5></font> <!-- nome do trofeu -->
+                <font size="2"><p>Termine cinco níveis em sequência sem usar movimentos. O uso de corrida é permitido.</p></font> <!-- detalhes -->
               </div>
             </div>
-              </a>     
+              </a>
             </div>
               <!-- este ID tem que estar igual ao data target desse trofeu, e assim para cada trofeu -->
             <div id="trophy19" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
                 <div class="card-body"> <!-- descricao trofeu -->
-                  <p>Este troféu é conquistado por coletar todas as partes antigas de armas e veículos espalhadas por Medici. Essas aparecem por pequenos locais que parece ser pra cavar, com uma pá cravada no solo. E assim que você colegar a pá desaparece.</p>
-                  <img src="https://lh4.googleusercontent.com/_9TndA6HVVIoj04ysqqQm4T82UlrlUNWMBIJ61Wlg-mNTN_GD0pZ-wlsxLCPFzefRPu3pUlFxQD8iDT8vlhQdYaYKKjcF3U5G7Z7kJxwujlzZVCic_WQ-1lo950lcTy3PoOMIukF">
-                  <p>Existe um total de 71 partes.</p>
+              Você pode fazer isso facilmente no primeiro mundo. Apenas atire, não se movimente, quando ficar em perigo, utilize a corrida.
             </div>
             </div>
           </div>
@@ -605,17 +595,16 @@
                 <image class="img-thumbnail" src="images/bronze.png" height="30px" ></image>
               </div>
               <div class="col-md-10">
-                <font class="BS-font-colorh5"><h5>Perfeito atrevido</h5></font> <!-- nome do trofeu -->
-                <font size="2"><p>Pule com um veículo terrestre de todos os Pulos Atrevidos de Medici.</p></font> <!-- detalhes -->
+                <font class="BS-font-colorh5"><h5>Somos todos especiais!</h5></font> <!-- nome do trofeu -->
+                <font size="2"><p>Salve todos os humanos secretos em um único mundo na dificuldade Experiente ou maior.</p></font> <!-- detalhes -->
               </div>
             </div>
-              </a>     
+              </a>
             </div>
               <!-- este ID tem que estar igual ao data target desse trofeu, e assim para cada trofeu -->
             <div id="trophy20" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
                 <div class="card-body"> <!-- descricao trofeu -->
-                  <p>Esse troféu é conquistado por dirigir um veículo por todos esses Pulos Atrevidos espalhados por Medici. Você não precisa cair corretamente do pulo em nenhum destes, apenas dirija em cada rampa em uma velocidade alta, e permaneça no veículo até registrar o pulo.</p>
-                  <img src="https://lh6.googleusercontent.com/gtMvGIAeJzf0x_s55v_JCxWC5sbqiVnT1Llu8F_kQ3hQ5pFYiMbWjNhfMuQ6mG7aflmxhH24roy2N9FiLiioZlDeC2vUHv0EXRO5coOpDkDChSC28vIGbFDfqFwF_NsJTrbNEka3" alt="Icone de Pulo Atrevido no Mapa">
+               Verifique <b>Última linha de defesa</b> <img src="https://lh4.googleusercontent.com/DUhubofmd2YLyY0Qh69yTxbFY7F8TS0qVWoNnObYLewpfVm_bfJmUAIKFzSvd9RIHgLUP8QAAafWW4QsPb4cd2zHHdKoZCz4GneosY2DPtupiTsfDDdrp0_Wet6f-lB6QdP1VxHJ">
             </div>
             </div>
           </div>
@@ -629,24 +618,16 @@
                 <image class="img-thumbnail" src="images/silver.png" height="30px" ></image>
               </div>
               <div class="col-md-10">
-                <font class="BS-font-colorh5"><h5>Nenhuma pedra desvirada</h5></font> <!-- nome do trofeu -->
-                <font size="2"><p>Encontre todos os colecionáveis espalhados por Medici.</p></font> <!-- detalhes -->
+                <font class="BS-font-colorh5"><h5>Última linha de defesa</h5></font> <!-- nome do trofeu -->
+                <font size="2"><p>Salve todos os humanos e humanos secretos em um único mundo na dificuldade Veterano.</p></font> <!-- detalhes -->
               </div>
             </div>
-              </a>     
+              </a>
             </div>
               <!-- este ID tem que estar igual ao data target desse trofeu, e assim para cada trofeu -->
             <div id="trophy21" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
                 <div class="card-body"> <!-- descricao trofeu -->
-                  <p>Este troféu é conquistado por achar todos os colecionáveis em Medici. Basicamente você precisa fazer todos estes troféus para ganhar este:</p>
-                  <ul>
-                    <li><b>Tomb Raider</b></li>
-                    <li><b>Lembre-se dos Caídos</b></li>
-                    <li><b>Diário de um Louco</b></li>
-                    <li><b>Antigo é legal</b></li>
-                    <li><b>Perfeito atrevido</b></li>
-                  </ul>
-                  <p>Você pode acompanhar seu progresso de todos colecionáveis pelo Menu.</p>
+              Para salvar todos os humanos, você precisa jogar na dificuldade Veterano, e acessar todos os níveis secretos de um mundo e descobrir a localização de todos os humanos em um único nível.
             </div>
             </div>
           </div>
@@ -660,17 +641,16 @@
                 <image class="img-thumbnail" src="images/bronze.png" height="30px" ></image>
               </div>
               <div class="col-md-10">
-                <font class="BS-font-colorh5"><h5>Topo do mundo</h5></font> <!-- nome do trofeu -->
-                <font size="2"><p>Fique de pé no ponto mais alto de Medici.</p></font> <!-- detalhes -->
+                <font class="BS-font-colorh5"><h5>Fazendo tudo</h5></font> <!-- nome do trofeu -->
+                <font size="2"><p>Cumpra 10 minijogos de fim de nível seguidos em qualquer dificuldade.</p></font> <!-- detalhes -->
               </div>
             </div>
-              </a>     
+              </a>
             </div>
               <!-- este ID tem que estar igual ao data target desse trofeu, e assim para cada trofeu -->
             <div id="trophy22" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
                 <div class="card-body"> <!-- descricao trofeu -->
-                  <p>Este troféu é ganho por chegar ao ponto mais alto do mapa, que é em um pequeno templo como uma estrutura no topo da região de Montana, na Insula Striate. As coordenadas exatas são N 40 48.094 E 5 43.227</p>
-                  <img src="https://lh5.googleusercontent.com/Il0eY67BWs2eCe51bnYIFRqTZkyQmYGt8yP8YN6L8tTn1-YvRVEoZKhXwrTCn23ylQliMA52128-mp6Ja-oqNZ66LHu3tP7YtKXf5K7--WtuewLXqUF7NULEobbFbqPc31MoiTM6">
+               Verifique <b>Por que eu posso</b> <img src="https://lh5.googleusercontent.com/4vzRgjHLpTViB_lVgoIGpWDLOJLmYJXQo7cMPRj1M36kt77o8o1z7_9L3iu0wH-hPPkEABhToFJh7ksJr0AfJofUARXU7NTjEU2KosX9Uo_apszHVIAKnTry9zOcuiMt9DtAxGB5">
             </div>
             </div>
           </div>
@@ -684,16 +664,17 @@
                 <image class="img-thumbnail" src="images/bronze.png" height="30px" ></image>
               </div>
               <div class="col-md-10">
-                <font class="BS-font-colorh5"><h5>Qualquer coisa que faça...</h5></font> <!-- nome do trofeu -->
-                <font size="2"><p>Bata uma pontuação a qual tenha sido desafiado.</p></font> <!-- detalhes -->
+                <font class="BS-font-colorh5"><h5>Porque eu posso</h5></font> <!-- nome do trofeu -->
+                <font size="2"><p>Conclua um mundo cumprindo todos os minijogos de fim de nível em qualquer dificuldade.</p></font> <!-- detalhes -->
               </div>
             </div>
-              </a>     
+              </a>
             </div>
               <!-- este ID tem que estar igual ao data target desse trofeu, e assim para cada trofeu -->
             <div id="trophy23" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
                 <div class="card-body"> <!-- descricao trofeu -->
-                  <p>Este troféu aparenta ser temperamental, hora ganha às vezes não, mesmo batendo a pontuação da façanha que você foi desafiado. Sugiro fazer o desafio de passar mais tempo com a Wingsuit.</p>
+              <p>Ao finalizar cada nível haverá um círculo azul se fechando a sua volta quando o círculo externo tocar o círculo interno(que fica na volta do personagem) basta você usar a Corrida, haverá um som característico, aparecerá a mensagem na parte de baixo da tela se bem sucedido, junto com uma pontuação extra. Apenas repita o processo 10 vezes seguidas.</p>
+              <img src="https://lh5.googleusercontent.com/G-dbyctkWs332uIpB-ubyedYiD_68Isii2BXlqGNFmu4_jmFYp1dokvnfWsILI9qHnlV1x8PmF3b903ryvIy_DVrQR90QkqvYAprfx914u3NWuqWnF0Jydh7yDj4KcpfnTRbjHmK">
             </div>
             </div>
           </div>
@@ -707,16 +688,17 @@
                 <image class="img-thumbnail" src="images/bronze.png" height="30px" ></image>
               </div>
               <div class="col-md-10">
-                <font class="BS-font-colorh5"><h5>Fetiche de façanha</h5></font> <!-- nome do trofeu -->
-                <font size="2"><p>Realize todas as façanhas.</p></font> <!-- detalhes -->
+                <font class="BS-font-colorh5"><h5>Na minha casa, não</h5></font> <!-- nome do trofeu -->
+                <font size="2"><p>Salve um humano enquanto ele estiver sendo coletado.</p></font> <!-- detalhes -->
               </div>
             </div>
-              </a>     
+              </a>
             </div>
               <!-- este ID tem que estar igual ao data target desse trofeu, e assim para cada trofeu -->
             <div id="trophy24" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
                 <div class="card-body"> <!-- descricao trofeu -->
-                  <p> Este troféu é ganho por registrar uma pontuação em todas façanhas do jogo pelo menos uma vez. Todas as façanhas podem ser vistos no menu através de Placar de Lideres (leaderboard) > Pontuação de Façanhas.</p>
+              <p>Esta é a imagem de um humano sendo coletado, basta salvá-lo durante esse processo e o troféu será seu.</p>
+              <img src="https://3.bp.blogspot.com/-x7jLLarNVsc/WWVm2YYFRfI/AAAAAAAAadU/LhZJ6f21zOwRffsh_bBoXWl51n9F8UhawCPcBGAYYCw/s1600/172232.jpg">
             </div>
             </div>
           </div>
@@ -730,16 +712,16 @@
                 <image class="img-thumbnail" src="images/bronze.png" height="30px" ></image>
               </div>
               <div class="col-md-10">
-                <font class="BS-font-colorh5"><h5>Viva a revolução</h5></font> <!-- nome do trofeu -->
-                <font size="2"><p>Libere uma Província.</p></font> <!-- detalhes -->
+                <font class="BS-font-colorh5"><h5>Olha só pra mim</h5></font> <!-- nome do trofeu -->
+                <font size="2"><p>Complete um feito.</p></font> <!-- detalhes -->
               </div>
             </div>
-              </a>     
+              </a>
             </div>
               <!-- este ID tem que estar igual ao data target desse trofeu, e assim para cada trofeu -->
             <div id="trophy25" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
                 <div class="card-body"> <!-- descricao trofeu -->
-                  <p>Relacionado a história, não tem como perder.</p>
+               Verifique <b>(Per)feito!</b> <img src="https://lh4.googleusercontent.com/WDLYJ2LOrsaLqTifDzSn_tK0xskcmi-cL8PeyKPK_-H1sFuX0ckFoVIESocWV6EdMh2bb4uCCstq6FbEJ_VvEGxqe2mtQwSSeH0akT3aKlhNDSzUcv-Ae05N7j0k4Ce2jJsowRDY">
             </div>
             </div>
           </div>
@@ -750,19 +732,19 @@
               <a data-target="#trophy26" data-toggle="collapse"  aria-expanded="true" aria-controls="collapseOne"> <!-- CUIDADO no data-target e ID na div de descricao e mudar pra cada trofeu -->
                 <div class="row align-items-start"><!-- DIV PARA CADA TROFEU -->
               <div class="col-md-2"><!-- IMAGEM DESCRIÇÂO E TITULO DO TROFEU -->
-                <image class="img-thumbnail" src="images/bronze.png" height="30px" ></image>
+                <image class="img-thumbnail" src="images/silver.png" height="30px" ></image>
               </div>
               <div class="col-md-10">
-                <font class="BS-font-colorh5"><h5>Tomem isso, otários de linha de produção</h5></font> <!-- nome do trofeu -->
-                <font size="2"><p>Desabilite a FOW de Insula Fonte.</p></font> <!-- detalhes -->
+                <font class="BS-font-colorh5"><h5>Chegando lá</h5></font> <!-- nome do trofeu -->
+                <font size="2"><p>Complete 50 feitos.</p></font> <!-- detalhes -->
               </div>
             </div>
-              </a>     
+              </a>
             </div>
               <!-- este ID tem que estar igual ao data target desse trofeu, e assim para cada trofeu -->
             <div id="trophy26" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
                 <div class="card-body"> <!-- descricao trofeu -->
-                  <p>Relacionado a história, não tem como perder.</p>
+                  Verifique <b>(Per)feito!</b> <img src="https://lh4.googleusercontent.com/WDLYJ2LOrsaLqTifDzSn_tK0xskcmi-cL8PeyKPK_-H1sFuX0ckFoVIESocWV6EdMh2bb4uCCstq6FbEJ_VvEGxqe2mtQwSSeH0akT3aKlhNDSzUcv-Ae05N7j0k4Ce2jJsowRDY">
             </div>
             </div>
           </div>
@@ -773,19 +755,24 @@
               <a data-target="#trophy27" data-toggle="collapse"  aria-expanded="true" aria-controls="collapseOne"> <!-- CUIDADO no data-target e ID na div de descricao e mudar pra cada trofeu -->
                 <div class="row align-items-start"><!-- DIV PARA CADA TROFEU -->
               <div class="col-md-2"><!-- IMAGEM DESCRIÇÂO E TITULO DO TROFEU -->
-                <image class="img-thumbnail" src="images/bronze.png" height="30px" ></image>
+                <image class="img-thumbnail" src="images/gold.png" height="30px" ></image>
               </div>
               <div class="col-md-10">
-                <font class="BS-font-colorh5"><h5>Dúzia de treze</h5></font> <!-- nome do trofeu -->
-                <font size="2"><p>Libere 13 assentamentos.</p></font> <!-- detalhes -->
+                <font class="BS-font-colorh5"><h5>(Per)feito!</h5></font> <!-- nome do trofeu -->
+                <font size="2"><p>Complete 100 feitos.</p></font> <!-- detalhes -->
               </div>
             </div>
-              </a>     
+              </a>
             </div>
               <!-- este ID tem que estar igual ao data target desse trofeu, e assim para cada trofeu -->
             <div id="trophy27" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
                 <div class="card-body"> <!-- descricao trofeu -->
-                  <p>Relacionado a história, não tem como perder.</p>
+              <p>Feitos são as ações feitas nos jogos, como os troféus, eles aparecem como pequenas mensagens em letras brancas na parte inferior da tela. Ao fazer todos os outros troféus você terá feito em média 50 feitos. Sendo necessária a verificação na lista de mais feitos a serem feitos. Abaixo recomendo alguns feitos mais fáceis de fazer.</p>
+              <ul>
+                <li>Não salvar nenhum Humano em todos os mundos, tem um feito para cada mundo.</li>
+                <li>Assim como o Troféu <b>Na velocidade da luz</b> <img src="https://lh4.googleusercontent.com/WDLYJ2LOrsaLqTifDzSn_tK0xskcmi-cL8PeyKPK_-H1sFuX0ckFoVIESocWV6EdMh2bb4uCCstq6FbEJ_VvEGxqe2mtQwSSeH0akT3aKlhNDSzUcv-Ae05N7j0k4Ce2jJsowRDY">, existe feitos para cada mundo em cada dificuldade: recomendo fazer todos os mundos no veterano o mais rápido possível. Se for bem sucedido ganhará 3 feitos (Do inicial, Experiente e Veterano).</li>
+                <li>Das armas secundárias em cada mundo. A maioria delas basta entrar no mundo em específico (no Veterano pois a quantidade de inimigos é maior) agrupar uma alta quantidade de inimigos e usar a Corrida na direção deles e assim que chegar ao meio utilizar a arma secundária, se cumprir o requisito, a mensagem ja vai aparecer na parte inferior da tela. (Evite usar a Corrida Explosiva).</li>
+              </ul>
             </div>
             </div>
           </div>
@@ -796,19 +783,19 @@
               <a data-target="#trophy28" data-toggle="collapse"  aria-expanded="true" aria-controls="collapseOne"> <!-- CUIDADO no data-target e ID na div de descricao e mudar pra cada trofeu -->
                 <div class="row align-items-start"><!-- DIV PARA CADA TROFEU -->
               <div class="col-md-2"><!-- IMAGEM DESCRIÇÂO E TITULO DO TROFEU -->
-                <image class="img-thumbnail" src="images/silver.png" height="30px" ></image>
+                <image class="img-thumbnail" src="images/bronze.png" height="30px" ></image>
               </div>
               <div class="col-md-10">
-                <font class="BS-font-colorh5"><h5>Domando Dracon</h5></font> <!-- nome do trofeu -->
-                <font size="2"><p>Libere completamente Insula Dracon.</p></font> <!-- detalhes -->
+                <font class="BS-font-colorh5"><h5>2+2=/=5</h5></font> <!-- nome do trofeu -->
+                <font size="2"><p>Alcance um combo humano de 5.</p></font> <!-- detalhes -->
               </div>
             </div>
-              </a>     
+              </a>
             </div>
               <!-- este ID tem que estar igual ao data target desse trofeu, e assim para cada trofeu -->
             <div id="trophy28" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
                 <div class="card-body"> <!-- descricao trofeu -->
-                  <p>Este troféu é ganho após liberar todas províncias na Insula Dracon. Que é a segunda região que você chega pelas missões de história.</p>
+              Verifique <b>-10+9*8-7*6+5*4+3^2+1 = 50'</b> <img src="https://lh4.googleusercontent.com/DUhubofmd2YLyY0Qh69yTxbFY7F8TS0qVWoNnObYLewpfVm_bfJmUAIKFzSvd9RIHgLUP8QAAafWW4QsPb4cd2zHHdKoZCz4GneosY2DPtupiTsfDDdrp0_Wet6f-lB6QdP1VxHJ">
             </div>
             </div>
           </div>
@@ -822,16 +809,16 @@
                 <image class="img-thumbnail" src="images/silver.png" height="30px" ></image>
               </div>
               <div class="col-md-10">
-                <font class="BS-font-colorh5"><h5>Esperança de vida eterna</h5></font> <!-- nome do trofeu -->
-                <font size="2"><p>Libere completamente Insula Fonte.</p></font> <!-- detalhes -->
+                <font class="BS-font-colorh5"><h5>-10+9*8-7*6+5*4+3^2+1 = 50'</h5></font> <!-- nome do trofeu -->
+                <font size="2"><p>Alcance um combo humano de 50.</p></font> <!-- detalhes -->
               </div>
             </div>
-              </a>     
+              </a>
             </div>
               <!-- este ID tem que estar igual ao data target desse trofeu, e assim para cada trofeu -->
             <div id="trophy29" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
                 <div class="card-body"> <!-- descricao trofeu -->
-                  <p> Este troféu é ganho após liberar todas províncias na Insula Fonte. Que é a primeira região que você chega pelas missões de história.</p>
+              Um dos troféus mais chatos de se fazer. Tem que ser feito no Veterano, e é necessário salvar todos os humanos, para que você possar chegar a um combo tão alto. E você precisa administrar bem o seu tempo para não coletar todos de uma vez e demorar para passar o nível e correr o risco de zerar o contador.
             </div>
             </div>
           </div>
@@ -842,19 +829,19 @@
               <a data-target="#trophy30" data-toggle="collapse"  aria-expanded="true" aria-controls="collapseOne"> <!-- CUIDADO no data-target e ID na div de descricao e mudar pra cada trofeu -->
                 <div class="row align-items-start"><!-- DIV PARA CADA TROFEU -->
               <div class="col-md-2"><!-- IMAGEM DESCRIÇÂO E TITULO DO TROFEU -->
-                <image class="img-thumbnail" src="images/silver.png" height="30px" ></image>
+                <image class="img-thumbnail" src="images/bronze.png" height="30px" ></image>
               </div>
               <div class="col-md-10">
-                <font class="BS-font-colorh5"><h5>Coração de pedra</h5></font> <!-- nome do trofeu -->
-                <font size="2"><p>Libere completamente Insula Striate.</p></font> <!-- detalhes -->
+                <font class="BS-font-colorh5"><h5>Niilista</h5></font> <!-- nome do trofeu -->
+                <font size="2"><p>Complete um único mundo na dificuldade Experiente sem salvar humanos.</p></font> <!-- detalhes -->
               </div>
             </div>
-              </a>     
+              </a>
             </div>
               <!-- este ID tem que estar igual ao data target desse trofeu, e assim para cada trofeu -->
             <div id="trophy30" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
                 <div class="card-body"> <!-- descricao trofeu -->
-                  <p>Este troféu é ganho após liberar todas províncias na Insula Striate. Que é a última região que você chega pelas missões de história.</p>
+              Basta finalizar um mundo sem salvar nem um único humano, se por acidente salvar um, basta morrer no nível que ele irá zerar o contador novamente.
             </div>
             </div>
           </div>
@@ -865,29 +852,19 @@
               <a data-target="#trophy31" data-toggle="collapse"  aria-expanded="true" aria-controls="collapseOne"> <!-- CUIDADO no data-target e ID na div de descricao e mudar pra cada trofeu -->
                 <div class="row align-items-start"><!-- DIV PARA CADA TROFEU -->
               <div class="col-md-2"><!-- IMAGEM DESCRIÇÂO E TITULO DO TROFEU -->
-                <image class="img-thumbnail" src="images/silver.png" height="30px" ></image>
+                <image class="img-thumbnail" src="images/gold.png" height="30px" ></image>
               </div>
               <div class="col-md-10">
-                <font class="BS-font-colorh5"><h5>Desbloqueado e totalmente carregado</h5></font> <!-- nome do trofeu -->
-                <font size="2"><p>Desbloqueie todas as armas e veículos disponíveis no menu de Entrega Rebelde.</p></font> <!-- detalhes -->
+                <font class="BS-font-colorh5"><h5>Na velocidade da luz</h5></font> <!-- nome do trofeu -->
+                <font size="2"><p>Complete Cidade das máquinas em menos de 5:45 na dificuldade Experiente.</p></font> <!-- detalhes -->
               </div>
             </div>
-              </a>     
+              </a>
             </div>
               <!-- este ID tem que estar igual ao data target desse trofeu, e assim para cada trofeu -->
             <div id="trophy31" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
                 <div class="card-body"> <!-- descricao trofeu -->
-                  <p>Este troféu é ganho por ter tudo disponível pra você usar no menu de Entrega Rebelde, isto inclui:</p>
-                  <ul>
-                    <li>Todos os veículos que são desbloqueados por levar eles até a Garagem do Mario</li>
-                    <li>Todos os veículos e armas desbloqueados por liberar base militares e postos avançados</li>
-                    <li>Ambas armas e o avião desbloqueados por coletar peças antigas.</li>
-                    <li>O mortar portátil desbloqueados por coletar todas as fitas</li>
-                    <li>O helicóptero dourado por coletar todas as fitas</li>
-                    <li>Os veículos desbloqueados por completar todos os Saltos Atrevidos</li>
-                    <li>O helicóptero desbloqueado por terminar a história</li>
-                  </ul>
-                  <p>Este virá naturalmente enquanto você trabalha em fazer 100% no jogo.</p>
+              Basta entrar no mundo Cidade das máquinas, e passar os estágios da maneira mais rápida possível, sem entrar em níveis secretos. Apenas matando os inimigos com rapidez.
             </div>
             </div>
           </div>
@@ -898,19 +875,19 @@
               <a data-target="#trophy32" data-toggle="collapse"  aria-expanded="true" aria-controls="collapseOne"> <!-- CUIDADO no data-target e ID na div de descricao e mudar pra cada trofeu -->
                 <div class="row align-items-start"><!-- DIV PARA CADA TROFEU -->
               <div class="col-md-2"><!-- IMAGEM DESCRIÇÂO E TITULO DO TROFEU -->
-                <image class="img-thumbnail" src="images/bronze.png" height="30px" ></image>
+                <image class="img-thumbnail" src="images/gold.png" height="30px" ></image>
               </div>
               <div class="col-md-10">
-                <font class="BS-font-colorh5"><h5>Aproveite seu regresso a casa</h5></font> <!-- nome do trofeu -->
-                <font size="2"><p>Complete a missão: Bem-vindo ao lar.</p></font> <!-- detalhes -->
+                <font class="BS-font-colorh5"><h5>Sem tocar</h5></font> <!-- nome do trofeu -->
+                <font size="2"><p>Finalize um único mundo na dificuldade Experiente ou superior sem ser atingido.</p></font> <!-- detalhes -->
               </div>
             </div>
-              </a>     
+              </a>
             </div>
               <!-- este ID tem que estar igual ao data target desse trofeu, e assim para cada trofeu -->
             <div id="trophy32" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
                 <div class="card-body"> <!-- descricao trofeu -->
-                  <p>Relacionado a história, não tem como perder.</p>
+              Finalize um mundo sem ser atingido por absolutamente nada, inimigo, ou disparos. Basta ter cautela, não tem muita dificuldade envolvida.
             </div>
             </div>
           </div>
@@ -924,16 +901,17 @@
                 <image class="img-thumbnail" src="images/bronze.png" height="30px" ></image>
               </div>
               <div class="col-md-10">
-                <font class="BS-font-colorh5"><h5>Que desastre</h5></font> <!-- nome do trofeu -->
-                <font size="2"><p>Complete a missão: Uma reação terrível.</p></font> <!-- detalhes -->
+                <font class="BS-font-colorh5"><h5>Multiplicador</h5></font> <!-- nome do trofeu -->
+                <font size="2"><p>Alcance um multiplicador de 50.</p></font> <!-- detalhes -->
               </div>
             </div>
-              </a>     
+              </a>
             </div>
               <!-- este ID tem que estar igual ao data target desse trofeu, e assim para cada trofeu -->
             <div id="trophy33" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
                 <div class="card-body"> <!-- descricao trofeu -->
-                  <p>Relacionado a história, não tem como perder.</p>
+              <p>Para aumentar seu multiplicador, você precisa evitar ao máximo morrer, e derrotar inimigos. Salvar humanos ajuda o contador a subir, e assim que você tiver com seu herói com poder máximo (Verifique Contemplem seu herói ) todos os itens que você ganhará serão itens com “X+” que aumentam a barra do multiplicador. Você ganha itens derrotando monstros e toda vez que a barra na imagem abaixo encher ela gerará um item aleatoriamente, até você maximizar seu herói, daí em diante só ganhará os “X+”</p>
+              <img src="https://3.bp.blogspot.com/-yWJZVyEB_VU/WWVmMudvzRI/AAAAAAAAadE/neXwfP0klW85g29BX9YEUFXHEbe8B8uYQCPcBGAYYCw/s1600/nex-machina_20170706091812.png">
             </div>
             </div>
           </div>
@@ -947,16 +925,16 @@
                 <image class="img-thumbnail" src="images/bronze.png" height="30px" ></image>
               </div>
               <div class="col-md-10">
-                <font class="BS-font-colorh5"><h5>O poder de bavário</h5></font> <!-- nome do trofeu -->
-                <font size="2"><p>Complete a missão: Uma longa e perigosa estrada.</p></font> <!-- detalhes -->
+                <font class="BS-font-colorh5"><h5>Desafiante de bronze</h5></font> <!-- nome do trofeu -->
+                <font size="2"><p>Ganhe 3 medalhas de bronze na Arena.</p></font> <!-- detalhes -->
               </div>
             </div>
-              </a>     
+              </a>
             </div>
               <!-- este ID tem que estar igual ao data target desse trofeu, e assim para cada trofeu -->
             <div id="trophy34" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
                 <div class="card-body"> <!-- descricao trofeu -->
-                  <p>Relacionado a história, não tem como perder.</p>
+               Verifique <b>Desafiante de ouro</b> <img src="https://lh4.googleusercontent.com/DUhubofmd2YLyY0Qh69yTxbFY7F8TS0qVWoNnObYLewpfVm_bfJmUAIKFzSvd9RIHgLUP8QAAafWW4QsPb4cd2zHHdKoZCz4GneosY2DPtupiTsfDDdrp0_Wet6f-lB6QdP1VxHJ">
             </div>
             </div>
           </div>
@@ -970,16 +948,16 @@
                 <image class="img-thumbnail" src="images/bronze.png" height="30px" ></image>
               </div>
               <div class="col-md-10">
-                <font class="BS-font-colorh5"><h5>Essas minas são poços</h5></font> <!-- nome do trofeu -->
-                <font size="2"><p>Complete a missão: A grande fuga.</p></font> <!-- detalhes -->
+                <font class="BS-font-colorh5"><h5>Desafiante de prata</h5></font> <!-- nome do trofeu -->
+                <font size="2"><p>Ganhe 6 medalhas de prata na Arena.</p></font> <!-- detalhes -->
               </div>
             </div>
-              </a>     
+              </a>
             </div>
               <!-- este ID tem que estar igual ao data target desse trofeu, e assim para cada trofeu -->
             <div id="trophy35" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
                 <div class="card-body"> <!-- descricao trofeu -->
-                  <p>Relacionado a história, não tem como perder.</p>
+                  Verifique <b>Desafiante de ouro</b> <img src="https://lh4.googleusercontent.com/DUhubofmd2YLyY0Qh69yTxbFY7F8TS0qVWoNnObYLewpfVm_bfJmUAIKFzSvd9RIHgLUP8QAAafWW4QsPb4cd2zHHdKoZCz4GneosY2DPtupiTsfDDdrp0_Wet6f-lB6QdP1VxHJ">
             </div>
             </div>
           </div>
@@ -990,19 +968,19 @@
               <a data-target="#trophy36" data-toggle="collapse"  aria-expanded="true" aria-controls="collapseOne"> <!-- CUIDADO no data-target e ID na div de descricao e mudar pra cada trofeu -->
                 <div class="row align-items-start"><!-- DIV PARA CADA TROFEU -->
               <div class="col-md-2"><!-- IMAGEM DESCRIÇÂO E TITULO DO TROFEU -->
-                <image class="img-thumbnail" src="images/bronze.png" height="30px" ></image>
+                <image class="img-thumbnail" src="images/silver.png" height="30px" ></image>
               </div>
               <div class="col-md-10">
-                <font class="BS-font-colorh5"><h5>VAI SE F!#&R, MÍSSIL</h5></font> <!-- nome do trofeu -->
-                <font size="2"><p>Complete a missão: Caubói explosivo.</p></font> <!-- detalhes -->
+                <font class="BS-font-colorh5"><h5>Desafiante de ouro</h5></font> <!-- nome do trofeu -->
+                <font size="2"><p>Ganhe 9 medalhas de ouro na Arena.</p></font> <!-- detalhes -->
               </div>
             </div>
-              </a>     
+              </a>
             </div>
               <!-- este ID tem que estar igual ao data target desse trofeu, e assim para cada trofeu -->
             <div id="trophy36" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
                 <div class="card-body"> <!-- descricao trofeu -->
-                  <p>Relacionado a história, não tem como perder.</p>
+              Basta jogar fases da Arena buscando fazer o máximo de pontuação possível, isto é, evitando morrer para não diminuir o multiplicador. E salvando humanos para aumentar o multiplicador. Virá sem muito trabalho, passar o recorde ouro dos 3 mundos da Arena disponíveis inicialmente que você deverá ter esse troféu sem muito trabalho.
             </div>
             </div>
           </div>
@@ -1016,16 +994,26 @@
                 <image class="img-thumbnail" src="images/bronze.png" height="30px" ></image>
               </div>
               <div class="col-md-10">
-                <font class="BS-font-colorh5"><h5>Finalmente na ofensiva</h5></font> <!-- nome do trofeu -->
-                <font size="2"><p>Complete a missão: Enrolado no azul.</p></font> <!-- detalhes -->
+                <font class="BS-font-colorh5"><h5>Contemplem seu herói</h5></font> <!-- nome do trofeu -->
+                <font size="2"><p>Potencialize o Herói ao máximo.</p></font> <!-- detalhes -->
               </div>
             </div>
-              </a>     
+              </a>
             </div>
               <!-- este ID tem que estar igual ao data target desse trofeu, e assim para cada trofeu -->
             <div id="trophy37" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
                 <div class="card-body"> <!-- descricao trofeu -->
-                  <p>Relacionado a história, não tem como perder.</p>
+              <p>Virá naturalmente basta pegar todos os itens do jogo, e elevar o poder fogo da arma ao máximo.</p>
+              <p>Os itens são:</p>
+              <ul>
+                <li>Corrida Tripla</li>
+                <li>Corrida Explosiva</li>
+                <li>Escudo</li>
+                <li>Alcance da Arma</li>
+                <li>Dispersão da Arma</li>
+                <li>Arma secundária (Detonador, Espada, Laser, etc)</li>
+              </ul>
+              <img src="https://3.bp.blogspot.com/-yWJZVyEB_VU/WWVmMudvzRI/AAAAAAAAadE/neXwfP0klW85g29BX9YEUFXHEbe8B8uYQCPcBGAYYCw/s1600/nex-machina_20170706091812.png">
             </div>
             </div>
           </div>
@@ -1039,16 +1027,16 @@
                 <image class="img-thumbnail" src="images/bronze.png" height="30px" ></image>
               </div>
               <div class="col-md-10">
-                <font class="BS-font-colorh5"><h5>Erros e triunfos</h5></font> <!-- nome do trofeu -->
-                <font size="2"><p>Complete a missão: O destruidor de mundos.</p></font> <!-- detalhes -->
+                <font class="BS-font-colorh5"><h5>Por que está correndo?</h5></font> <!-- nome do trofeu -->
+                <font size="2"><p>Elimine um Disruptor.</p></font> <!-- detalhes -->
               </div>
             </div>
-              </a>     
+              </a>
             </div>
               <!-- este ID tem que estar igual ao data target desse trofeu, e assim para cada trofeu -->
             <div id="trophy38" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
                 <div class="card-body"> <!-- descricao trofeu -->
-                  <p>Relacionado a história, não tem como perder.</p>
+              Verifique <b>Eles morreram pela causa</b> <img src="https://lh4.googleusercontent.com/DUhubofmd2YLyY0Qh69yTxbFY7F8TS0qVWoNnObYLewpfVm_bfJmUAIKFzSvd9RIHgLUP8QAAafWW4QsPb4cd2zHHdKoZCz4GneosY2DPtupiTsfDDdrp0_Wet6f-lB6QdP1VxHJ">
             </div>
             </div>
           </div>
@@ -1062,272 +1050,42 @@
                 <image class="img-thumbnail" src="images/silver.png" height="30px" ></image>
               </div>
               <div class="col-md-10">
-                <font class="BS-font-colorh5"><h5>Filho de Medici</h5></font> <!-- nome do trofeu -->
-                <font size="2"><p>Filho de Medici</p></font> <!-- detalhes -->
+                <font class="BS-font-colorh5"><h5>Eles morreram pela causa</h5></font> <!-- nome do trofeu -->
+                <font size="2"><p>Elimine todos os Disruptores em um único mundo.</p></font> <!-- detalhes -->
               </div>
             </div>
-              </a>     
+              </a>
             </div>
               <!-- este ID tem que estar igual ao data target desse trofeu, e assim para cada trofeu -->
             <div id="trophy39" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
                 <div class="card-body"> <!-- descricao trofeu -->
-                  <p>Relacionado a história, não tem como perder.</p>
-            </div>
-            </div>
-          </div>
-          <!-- /div para cada trofeu -->
-          <!-- div para cada trofeu -->
-          <div class="card">
-            <div class="card-header" id="headingOne">
-              <a data-target="#trophy40" data-toggle="collapse"  aria-expanded="true" aria-controls="collapseOne"> <!-- CUIDADO no data-target e ID na div de descricao e mudar pra cada trofeu -->
-                <div class="row align-items-start"><!-- DIV PARA CADA TROFEU -->
-              <div class="col-md-2"><!-- IMAGEM DESCRIÇÂO E TITULO DO TROFEU -->
-                <image class="img-thumbnail" src="images/gold.png" height="30px" ></image>
-              </div>
-              <div class="col-md-10">
-                <font class="BS-font-colorh5"><h5>O vencedor leva tudo, de novo</h5></font> <!-- nome do trofeu -->
-                <font size="2"><p>100% Just Cause 3.</p></font> <!-- detalhes -->
-              </div>
-            </div>
-              </a>     
-            </div>
-              <!-- este ID tem que estar igual ao data target desse trofeu, e assim para cada trofeu -->
-            <div id="trophy40" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
-                <div class="card-body"> <!-- descricao trofeu -->
-                  <p>Este troféu é praticamente onde você vai gastar a maior parte do tempo trabalhando. Alcançar 100% no jogo requer:</p>
-                  <ul>
-                    <li>Completar todas as missões de história</li>
-                    <li>Ganhar todas as 5 engrenagens em cada Desafio</li>
-                    <li>Coletar todos os colecionáveis</li>
-                    <li>Trazer todos os veículos a Garagem do Mário</li>
-                    <li>Liberar todas as 3 regiões</li>
-                  </ul>
-                  <p>Você pode ver seu percentual total do jogo e todos os status em cada categoria na aba de progresso, no menu.</p>
-            </div>
-            </div>
-          </div>
-          <!-- /div para cada trofeu -->
-          <!-- div para cada trofeu -->
-          <div class="card">
-            <div class="card-header" id="headingOne">
-              <a data-target="#trophy41" data-toggle="collapse"  aria-expanded="true" aria-controls="collapseOne"> <!-- CUIDADO no data-target e ID na div de descricao e mudar pra cada trofeu -->
-                <div class="row align-items-start"><!-- DIV PARA CADA TROFEU -->
-              <div class="col-md-2"><!-- IMAGEM DESCRIÇÂO E TITULO DO TROFEU -->
-                <image class="img-thumbnail" src="images/bronze.png" height="30px" ></image>
-              </div>
-              <div class="col-md-10">
-                <font class="BS-font-colorh5"><h5>Não pode tocar</h5></font> <!-- nome do trofeu -->
-                <font size="2"><p>Desafie outro jogador em uma Façanha.</p></font> <!-- detalhes -->
-              </div>
-            </div>
-              </a>     
-            </div>
-              <!-- este ID tem que estar igual ao data target desse trofeu, e assim para cada trofeu -->
-            <div id="trophy41" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
-                <div class="card-body"> <!-- descricao trofeu -->
-                  <p>Este troféu é ganho por desafiar outro jogador a realizar uma façanha. Pode ser um amigo ou um jogador aleatório (Se você tiver o Placar de Líderes Estendido ativado nas opções no menu)</p>
-            </div>
-            </div>
-          </div>
-          <!-- /div para cada trofeu -->
-          <!-- div para cada trofeu -->
-          <div class="card">
-            <div class="card-header" id="headingOne">
-              <a data-target="#trophy42" data-toggle="collapse"  aria-expanded="true" aria-controls="collapseOne"> <!-- CUIDADO no data-target e ID na div de descricao e mudar pra cada trofeu -->
-                <div class="row align-items-start"><!-- DIV PARA CADA TROFEU -->
-              <div class="col-md-2"><!-- IMAGEM DESCRIÇÂO E TITULO DO TROFEU -->
-                <image class="img-thumbnail" src="images/bronze.png" height="30px" ></image>
-              </div>
-              <div class="col-md-10">
-                <font class="BS-font-colorh5"><h5>Perdão, Pai...</h5></font> <!-- nome do trofeu -->
-                <font size="2"><p>Refugie-se em um monastério para eliminar Pressão Nível 5.</p></font> <!-- detalhes -->
-              </div>
-            </div>
-              </a>     
-            </div>
-              <!-- este ID tem que estar igual ao data target desse trofeu, e assim para cada trofeu -->
-            <div id="trophy42" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
-                <div class="card-body"> <!-- descricao trofeu -->
-                  <p>Este troféu é ganho por ir até um monastério desbloqueado e falar com o Padre enquanto estiver com Pressão máxima. Aparecem no mapa como igrejas azuis.</p>
-                  <img src="https://lh5.googleusercontent.com/LwUWkwuko-YHF45rDEojzcklTArHQwW9R-63JY7LaQ4qc7--6ycgBoY7lsQFakwNBnAHInlrlZff9QgmX7ydd8_tWapy0gfxXPryfBXmxKM0vYjDSHdDtYqW4my3NMt-4Ia_IRcT">
-            </div>
-            </div>
-          </div>
-          <!-- /div para cada trofeu -->
-          <!-- div para cada trofeu -->
-          <div class="card">
-            <div class="card-header" id="headingOne">
-              <a data-target="#trophy43" data-toggle="collapse"  aria-expanded="true" aria-controls="collapseOne"> <!-- CUIDADO no data-target e ID na div de descricao e mudar pra cada trofeu -->
-                <div class="row align-items-start"><!-- DIV PARA CADA TROFEU -->
-              <div class="col-md-2"><!-- IMAGEM DESCRIÇÂO E TITULO DO TROFEU -->
-                <image class="img-thumbnail" src="images/bronze.png" height="30px" ></image>
-              </div>
-              <div class="col-md-10">
-                <font class="BS-font-colorh5"><h5>Iniciante de Mod</h5></font> <!-- nome do trofeu -->
-                <font size="2"><p>Desbloqueie seu primeiro MOD DE ENGRENAGEM e ative-o.</p></font> <!-- detalhes -->
-              </div>
-            </div>
-              </a>     
-            </div>
-              <!-- este ID tem que estar igual ao data target desse trofeu, e assim para cada trofeu -->
-            <div id="trophy43" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
-                <div class="card-body"> <!-- descricao trofeu -->
-                  <p>Este troféu é ganho por desbloquear ou liberar 1 mod de engrenagem.</p>
-            </div>
-            </div>
-          </div>
-          <!-- /div para cada trofeu -->
-          <!-- div para cada trofeu -->
-          <div class="card">
-            <div class="card-header" id="headingOne">
-              <a data-target="#trophy44" data-toggle="collapse"  aria-expanded="true" aria-controls="collapseOne"> <!-- CUIDADO no data-target e ID na div de descricao e mudar pra cada trofeu -->
-                <div class="row align-items-start"><!-- DIV PARA CADA TROFEU -->
-              <div class="col-md-2"><!-- IMAGEM DESCRIÇÂO E TITULO DO TROFEU -->
-                <image class="img-thumbnail" src="images/bronze.png" height="30px" ></image>
-              </div>
-              <div class="col-md-10">
-                <font class="BS-font-colorh5"><h5> Especialista de Mod</h5></font> <!-- nome do trofeu -->
-                <font size="2"><p>Desbloqueie todos os Mods de Engrenagem de uma categoria.</p></font> <!-- detalhes -->
-              </div>
-            </div>
-              </a>     
-            </div>
-              <!-- este ID tem que estar igual ao data target desse trofeu, e assim para cada trofeu -->
-            <div id="trophy44" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
-                <div class="card-body"> <!-- descricao trofeu -->
-                  <p> Este troféu é ganho por desbloquear ou liberar todos Mods de Engrenagem em uma categoria.</p>
-            </div>
-            </div>
-          </div>
-          <!-- /div para cada trofeu -->
-          <!-- div para cada trofeu -->
-          <div class="card">
-            <div class="card-header" id="headingOne">
-              <a data-target="#trophy45" data-toggle="collapse"  aria-expanded="true" aria-controls="collapseOne"> <!-- CUIDADO no data-target e ID na div de descricao e mudar pra cada trofeu -->
-                <div class="row align-items-start"><!-- DIV PARA CADA TROFEU -->
-              <div class="col-md-2"><!-- IMAGEM DESCRIÇÂO E TITULO DO TROFEU -->
-                <image class="img-thumbnail" src="images/silver.png" height="30px" ></image>
-              </div>
-              <div class="col-md-10">
-                <font class="BS-font-colorh5"><h5>Mestre dos Mods</h5></font> <!-- nome do trofeu -->
-                <font size="2"><p>Tenha todos os Mod de Engrenagem ativos por ao menos 1 minuto cada.</p></font> <!-- detalhes -->
-              </div>
-            </div>
-              </a>     
-            </div>
-              <!-- este ID tem que estar igual ao data target desse trofeu, e assim para cada trofeu -->
-            <div id="trophy45" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
-                <div class="card-body"> <!-- descricao trofeu -->
-                  <p>Este troféu é ganho por ter todos os Mods de Engrenagem, ativados por pelo menos 1 minuto cada um. Não quer dizer que você precisar ativar todos ao mesmo tempo, ao menos por 1 minuto cada.</p>
-            </div>
-            </div>
-          </div>
-          <!-- /div para cada trofeu -->
-          <!-- div para cada trofeu -->
-          <div class="card">
-            <div class="card-header" id="headingOne">
-              <a data-target="#trophy46" data-toggle="collapse"  aria-expanded="true" aria-controls="collapseOne"> <!-- CUIDADO no data-target e ID na div de descricao e mudar pra cada trofeu -->
-                <div class="row align-items-start"><!-- DIV PARA CADA TROFEU -->
-              <div class="col-md-2"><!-- IMAGEM DESCRIÇÂO E TITULO DO TROFEU -->
-                <image class="img-thumbnail" src="images/bronze.png" height="30px" ></image>
-              </div>
-              <div class="col-md-10">
-                <font class="BS-font-colorh5"><h5>Primeiro evento</h5></font> <!-- nome do trofeu -->
-                <font size="2"><p>Conclua um evento.</p></font> <!-- detalhes -->
-              </div>
-            </div>
-              </a>     
-            </div>
-              <!-- este ID tem que estar igual ao data target desse trofeu, e assim para cada trofeu -->
-            <div id="trophy46" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
-                <div class="card-body"> <!-- descricao trofeu -->
-                  <p>Este troféu é ganho após completar seu primeiro evento aleatório. Eles aparecem aleatoriamente no mapa marcados na sua tela.</p>
-                  <img src="https://lh6.googleusercontent.com/nwGhgIVZHhpzLEfxKmPITDyisByy9FAGrOzL7JlTLwlQIa82hLviBVt4OBndr6JzMDqN0YR1XR7AUWVhDt2uMQ_cKIwaietbk4mvpsTLrmN1sQENh_tCS57gUSWdHk6hEhFlSIpv">
-            </div>
-            </div>
-          </div>
-          <!-- /div para cada trofeu -->
-          <!-- div para cada trofeu -->
-          <div class="card">
-            <div class="card-header" id="headingOne">
-              <a data-target="#trophy47" data-toggle="collapse"  aria-expanded="true" aria-controls="collapseOne"> <!-- CUIDADO no data-target e ID na div de descricao e mudar pra cada trofeu -->
-                <div class="row align-items-start"><!-- DIV PARA CADA TROFEU -->
-              <div class="col-md-2"><!-- IMAGEM DESCRIÇÂO E TITULO DO TROFEU -->
-                <image class="img-thumbnail" src="images/bronze.png" height="30px" ></image>
-              </div>
-              <div class="col-md-10">
-                <font class="BS-font-colorh5"><h5>Oferta e demanda</h5></font> <!-- nome do trofeu -->
-                <font size="2"><p>Desbloqueie 10 pontos de reabastecimento ao concluir Eventos.</p></font> <!-- detalhes -->
-              </div>
-            </div>
-              </a>     
-            </div>
-              <!-- este ID tem que estar igual ao data target desse trofeu, e assim para cada trofeu -->
-            <div id="trophy47" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
-                <div class="card-body"> <!-- descricao trofeu -->
-                  <p>Este troféu é ganho após completar 10 eventos diferentes. Recomendo fazer todos os eventos que você passar para garantir este troféu.</p>
-            </div>
-            </div>
-          </div>
-          <!-- /div para cada trofeu -->
-          <!-- div para cada trofeu -->
-          <div class="card">
-            <div class="card-header" id="headingOne">
-              <a data-target="#trophy48" data-toggle="collapse"  aria-expanded="true" aria-controls="collapseOne"> <!-- CUIDADO no data-target e ID na div de descricao e mudar pra cada trofeu -->
-                <div class="row align-items-start"><!-- DIV PARA CADA TROFEU -->
-              <div class="col-md-2"><!-- IMAGEM DESCRIÇÂO E TITULO DO TROFEU -->
-                <image class="img-thumbnail" src="images/bronze.png" height="30px" ></image>
-              </div>
-              <div class="col-md-10">
-                <font class="BS-font-colorh5"><h5>Três refúgios sagrados</h5></font> <!-- nome do trofeu -->
-                <font size="2"><p>Desbloqueie 3 padres eliminadores de Pressão ao completar Eventos.</p></font> <!-- detalhes -->
-              </div>
-            </div>
-              </a>     
-            </div>
-              <!-- este ID tem que estar igual ao data target desse trofeu, e assim para cada trofeu -->
-            <div id="trophy48" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
-                <div class="card-body"> <!-- descricao trofeu -->
-                  <p>Este troféu é ganho após desbloquear 3 monastérios completando eventos aleatorios. Irão aparecer no seu mapa como pequenas igrejas azuis.</p>
+              Disruptores parecem pequenos, besouros verdes. Eles aparecem aleatoriamente pelos níveis dos mundos, e sempre que houver um a narradora avisará (em inglês): Disruptor Detected.
             </div>
             </div>
           </div>
           <!-- /div para cada trofeu -->
 
-			</div>
-			<!-- /div accordion -->
+          <div class="card-footer text-muted">
+          Postado em 05, Junho de 2018 por
+              <a href="#">Maicon</a> - Créditos <a target="_blank" href="http://www.playstationtrophies.org">Playstation Trophies</a>
+          </div>
+          <br><br>
+        </div>
 
 
-            <div class="card-footer text-muted">
-              Postado em 30, Agosto de 2017 por
-              <a href="#">PhDantu</a> - Créditos <a target="_blank" href="http://www.playstationtrophies.com">Playstation Trophies</a>
-              <br><br>
-            </div>
-          
-		
-		
-		</div>
 
-    </div>
+      </div>
       <!-- /.row -->
+
     </div>
     <!-- /.container -->
 
     <!-- Footer -->
     <footer class="py-5 bg-dark">
       <div class="container">
-        <div class="row">
-          <div class="col-md-4">
-          <a class="btn btn-secondary btn-block" href="#top">Voltar ao Topo</a>
-          </div>
-          <p class="m-0 text-center text-white col-md-4 offset-md-3">Copyright &copy; Your Website 2017</p>
-          <div class="btn-group col-md-4">
-            <a href="https://www.facebook.com/trofeushue" target="_blank" class="btn btn-primary col-md-12">Facebook</a>
-            <a href="#" target="_blank" 
-            class="btn btn-primary col-md-12">YouTube</a>
-          </div>
-        </div>
+        <p class="m-0 text-center text-white">Copyright &copy; Trofeus Hue 2018</p>
       </div>
+
       <!-- /.container -->
     </footer>
 
